@@ -42,4 +42,3 @@ client.on_message = on_message
 client.connect(broker_address)
 client.subscribe(topic)
 client.loop_forever()
-
