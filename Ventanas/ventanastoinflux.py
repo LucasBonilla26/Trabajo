@@ -12,12 +12,14 @@ def on_message(client, userdata, message):
     print("in-message")
     data=json.loads(str(message.payload.decode("utf-8"))) #recogida mensaje
     
+    doorState = int(True if data['object']['door'] == "open" else False)
+    
     try:
         informacion = {
                         'measurement': data['deviceName'],
                         'tags': {'gatewayID': data['rxInfo'][0]['gatewayID']},
-                        'fields':{'rssi': float(data['rxInfo'][0]['rssi']),'loRaSNR': float(data['rxInfo'][0]['loRaSNR']),'door':(data['object']['door']),'humidity':float(data['object']['humidity']),'temperature':float(data['object']['temperature'])}
-                    }
+                        'fields':{'rssi': float(data['rxInfo'][0]['rssi']),'loRaSNR': float(data['rxInfo'][0]['loRaSNR']),'door':doorState,'humidity':float(data['object']['humidity']),'temperature':float(data['object']['temperature'])}
+                      }
 
     #estructura datos a introducir en influxdb
         json_body = []
