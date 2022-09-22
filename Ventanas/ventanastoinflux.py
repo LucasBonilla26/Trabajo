@@ -12,9 +12,8 @@ def on_message(client, userdata, message):
     print("in-message")
     data=json.loads(str(message.payload.decode("utf-8"))) #recogida mensaje
     
-    doorState = int(True if data['object']['door'] == "open" else False)
-    
     try:
+	doorState = int(True if data['object']['door'] == "open" else False)
         informacion = {
                         'measurement': data['deviceName'],
                         'tags': {'gatewayID': data['rxInfo'][0]['gatewayID']},
@@ -31,7 +30,7 @@ def on_message(client, userdata, message):
         print(data)
 
     except:
-        print("Hello")
+        print("JSON vacío.No preocuparse.")
 
 #conexión a cliente mqtt
 broker_address = "158.49.112.171"
