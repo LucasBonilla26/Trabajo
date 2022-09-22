@@ -13,7 +13,7 @@ def on_message(client, userdata, message):
     data=json.loads(str(message.payload.decode("utf-8"))) #recogida mensaje
     
     try:
-	doorState = int(True if data['object']['door'] == "open" else False)
+	    doorState = int(True if data['object']['door'] == "open" else False)
         informacion = {
                         'measurement': data['deviceName'],
                         'tags': {'gatewayID': data['rxInfo'][0]['gatewayID']},
