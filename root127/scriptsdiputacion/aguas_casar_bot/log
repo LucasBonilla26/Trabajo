@@ -1,0 +1,1025 @@
+@#$%&[2021-03-10 14:34:45.364475]:Traceback (most recent call last):
+  File "start_bot.py", line 98, in on_chat_message
+    dest_docu_path = os.path.join(documents_folder, document_name + "_" + datetime.datetime.now())
+TypeError: can only concatenate str (not "datetime.datetime") to str
+
+@#$%&[2021-03-10 14:37:00.811165]:Traceback (most recent call last):
+  File "start_bot.py", line 98, in on_chat_message
+    dest_docu_path = os.path.join(documents_folder, document_name + "_" + datetime.datetime.now())
+TypeError: can only concatenate str (not "datetime.datetime") to str
+
+@#$%&[2021-03-10 14:37:57.739496]:Traceback (most recent call last):
+  File "start_bot.py", line 99, in on_chat_message
+    my_bot.download_file(document_id, documents_folder)
+  File "/home/carlos-mini/.local/lib/python3.8/site-packages/telepot/__init__.py", line 1054, in download_file
+    d = dest if _isfile(dest) else open(dest, 'wb')
+IsADirectoryError: [Errno 21] Is a directory: '/home/carlos-mini/aguas_casar_bot/documents'
+
+@#$%&[2021-03-22 11:25:07.186613]:Traceback (most recent call last):
+  File "/home/crivac/aguas_casar_bot/start_bot.py", line 113, in on_chat_message
+    print(my_bot.deleteChatPhoto(document_id))
+  File "/usr/local/lib/python3.6/dist-packages/telepot/__init__.py", line 792, in deleteChatPhoto
+    return self._api_request('deleteChatPhoto', _rectify(p))
+  File "/usr/local/lib/python3.6/dist-packages/telepot/__init__.py", line 491, in _api_request
+    return api.request((self._token, method, params, files), **kwargs)
+  File "/usr/local/lib/python3.6/dist-packages/telepot/api.py", line 155, in request
+    return _parse(r)
+  File "/usr/local/lib/python3.6/dist-packages/telepot/api.py", line 150, in _parse
+    raise exception.TelegramError(description, error_code, data)
+telepot.exception.TelegramError: ('Bad Request: chat not found', 400, {'ok': False, 'error_code': 400, 'description': 'Bad Request: chat not found'})
+
+@#$%&[2021-03-22 12:16:06.314383]:Traceback (most recent call last):
+  File "/home/crivac/aguas_casar_bot/start_bot.py", line 120, in on_chat_message
+    xl_file = pd.ExcelFile(new_file)
+  File "/usr/local/lib/python3.6/dist-packages/pandas/io/excel.py", line 653, in __init__
+    self._reader = self._engines[engine](self._io)
+  File "/usr/local/lib/python3.6/dist-packages/pandas/io/excel.py", line 424, in __init__
+    self.book = xlrd.open_workbook(filepath_or_buffer)
+  File "/usr/local/lib/python3.6/dist-packages/xlrd/__init__.py", line 170, in open_workbook
+    raise XLRDError(FILE_FORMAT_DESCRIPTIONS[file_format]+'; not supported')
+xlrd.biffh.XLRDError: Excel xlsx file; not supported
+
+@#$%&[2021-03-22 12:17:00.248675]:Traceback (most recent call last):
+  File "/home/crivac/aguas_casar_bot/start_bot.py", line 120, in on_chat_message
+    xl_file = pd.ExcelFile(new_file)
+  File "/usr/local/lib/python3.6/dist-packages/pandas/io/excel.py", line 653, in __init__
+    self._reader = self._engines[engine](self._io)
+  File "/usr/local/lib/python3.6/dist-packages/pandas/io/excel.py", line 424, in __init__
+    self.book = xlrd.open_workbook(filepath_or_buffer)
+  File "/usr/local/lib/python3.6/dist-packages/xlrd/__init__.py", line 170, in open_workbook
+    raise XLRDError(FILE_FORMAT_DESCRIPTIONS[file_format]+'; not supported')
+xlrd.biffh.XLRDError: Excel xlsx file; not supported
+
+@#$%&[2021-03-22 12:17:58.465400]:Traceback (most recent call last):
+  File "/home/crivac/aguas_casar_bot/start_bot.py", line 120, in on_chat_message
+    xl_file = pd.ExcelFile(new_file)
+  File "/usr/local/lib/python3.6/dist-packages/pandas/io/excel.py", line 653, in __init__
+    self._reader = self._engines[engine](self._io)
+  File "/usr/local/lib/python3.6/dist-packages/pandas/io/excel.py", line 424, in __init__
+    self.book = xlrd.open_workbook(filepath_or_buffer)
+  File "/usr/local/lib/python3.6/dist-packages/xlrd/__init__.py", line 170, in open_workbook
+    raise XLRDError(FILE_FORMAT_DESCRIPTIONS[file_format]+'; not supported')
+xlrd.biffh.XLRDError: Excel xlsx file; not supported
+
+@#$%&[2021-03-22 12:20:00.356485]:Traceback (most recent call last):
+  File "/home/crivac/aguas_casar_bot/start_bot.py", line 122, in on_chat_message
+    xl_file = pd.ExcelFile(new_file)
+  File "/usr/local/lib/python3.6/dist-packages/pandas/io/excel.py", line 653, in __init__
+    self._reader = self._engines[engine](self._io)
+  File "/usr/local/lib/python3.6/dist-packages/pandas/io/excel.py", line 424, in __init__
+    self.book = xlrd.open_workbook(filepath_or_buffer)
+  File "/usr/local/lib/python3.6/dist-packages/xlrd/__init__.py", line 170, in open_workbook
+    raise XLRDError(FILE_FORMAT_DESCRIPTIONS[file_format]+'; not supported')
+xlrd.biffh.XLRDError: Excel xlsx file; not supported
+
+@#$%&[2021-03-22 12:21:26.356087]:Traceback (most recent call last):
+  File "/home/crivac/aguas_casar_bot/start_bot.py", line 122, in on_chat_message
+    xl_file = pd.ExcelFile(rutaarchivo)
+  File "/usr/local/lib/python3.6/dist-packages/pandas/io/excel.py", line 653, in __init__
+    self._reader = self._engines[engine](self._io)
+  File "/usr/local/lib/python3.6/dist-packages/pandas/io/excel.py", line 424, in __init__
+    self.book = xlrd.open_workbook(filepath_or_buffer)
+  File "/usr/local/lib/python3.6/dist-packages/xlrd/__init__.py", line 166, in open_workbook
+    file_format = inspect_format(filename, file_contents)
+  File "/usr/local/lib/python3.6/dist-packages/xlrd/__init__.py", line 60, in inspect_format
+    with open(path, "rb") as f:
+FileNotFoundError: [Errno 2] No such file or directory: '/home/crivac/aguas_casar_bot/documents//home/crivac/aguas_casar_bot/documents/prueba.xlsx'
+
+@#$%&[2021-03-22 12:21:51.424548]:Traceback (most recent call last):
+  File "/home/crivac/aguas_casar_bot/start_bot.py", line 122, in on_chat_message
+    xl_file = pd.ExcelFile(rrutaarchivo)
+NameError: name 'rrutaarchivo' is not defined
+
+@#$%&[2021-03-22 12:22:44.386495]:Traceback (most recent call last):
+  File "/home/crivac/aguas_casar_bot/start_bot.py", line 122, in on_chat_message
+    xl_file = pd.read_excel(rutaarchivo)
+  File "/usr/local/lib/python3.6/dist-packages/pandas/util/_decorators.py", line 188, in wrapper
+    return func(*args, **kwargs)
+  File "/usr/local/lib/python3.6/dist-packages/pandas/util/_decorators.py", line 188, in wrapper
+    return func(*args, **kwargs)
+  File "/usr/local/lib/python3.6/dist-packages/pandas/io/excel.py", line 350, in read_excel
+    io = ExcelFile(io, engine=engine)
+  File "/usr/local/lib/python3.6/dist-packages/pandas/io/excel.py", line 653, in __init__
+    self._reader = self._engines[engine](self._io)
+  File "/usr/local/lib/python3.6/dist-packages/pandas/io/excel.py", line 424, in __init__
+    self.book = xlrd.open_workbook(filepath_or_buffer)
+  File "/usr/local/lib/python3.6/dist-packages/xlrd/__init__.py", line 166, in open_workbook
+    file_format = inspect_format(filename, file_contents)
+  File "/usr/local/lib/python3.6/dist-packages/xlrd/__init__.py", line 60, in inspect_format
+    with open(path, "rb") as f:
+FileNotFoundError: [Errno 2] No such file or directory: '/home/crivac/aguas_casar_bot/documents//home/crivac/aguas_casar_bot/documents/prueba.xlsx'
+
+@#$%&[2021-03-22 12:24:30.397113]:Traceback (most recent call last):
+  File "/home/crivac/aguas_casar_bot/start_bot.py", line 123, in on_chat_message
+    xl_file = pd.read_excel(new_file)
+  File "/usr/local/lib/python3.6/dist-packages/pandas/util/_decorators.py", line 188, in wrapper
+    return func(*args, **kwargs)
+  File "/usr/local/lib/python3.6/dist-packages/pandas/util/_decorators.py", line 188, in wrapper
+    return func(*args, **kwargs)
+  File "/usr/local/lib/python3.6/dist-packages/pandas/io/excel.py", line 350, in read_excel
+    io = ExcelFile(io, engine=engine)
+  File "/usr/local/lib/python3.6/dist-packages/pandas/io/excel.py", line 653, in __init__
+    self._reader = self._engines[engine](self._io)
+  File "/usr/local/lib/python3.6/dist-packages/pandas/io/excel.py", line 424, in __init__
+    self.book = xlrd.open_workbook(filepath_or_buffer)
+  File "/usr/local/lib/python3.6/dist-packages/xlrd/__init__.py", line 170, in open_workbook
+    raise XLRDError(FILE_FORMAT_DESCRIPTIONS[file_format]+'; not supported')
+xlrd.biffh.XLRDError: Excel xlsx file; not supported
+
+@#$%&[2021-03-22 12:25:11.151457]:Traceback (most recent call last):
+  File "/home/crivac/aguas_casar_bot/start_bot.py", line 124, in on_chat_message
+    xl_file = pd.read_excel(file)
+  File "/usr/local/lib/python3.6/dist-packages/pandas/util/_decorators.py", line 188, in wrapper
+    return func(*args, **kwargs)
+  File "/usr/local/lib/python3.6/dist-packages/pandas/util/_decorators.py", line 188, in wrapper
+    return func(*args, **kwargs)
+  File "/usr/local/lib/python3.6/dist-packages/pandas/io/excel.py", line 350, in read_excel
+    io = ExcelFile(io, engine=engine)
+  File "/usr/local/lib/python3.6/dist-packages/pandas/io/excel.py", line 653, in __init__
+    self._reader = self._engines[engine](self._io)
+  File "/usr/local/lib/python3.6/dist-packages/pandas/io/excel.py", line 424, in __init__
+    self.book = xlrd.open_workbook(filepath_or_buffer)
+  File "/usr/local/lib/python3.6/dist-packages/xlrd/__init__.py", line 166, in open_workbook
+    file_format = inspect_format(filename, file_contents)
+  File "/usr/local/lib/python3.6/dist-packages/xlrd/__init__.py", line 60, in inspect_format
+    with open(path, "rb") as f:
+FileNotFoundError: [Errno 2] No such file or directory: 'prueba.xlsx'
+
+@#$%&[2021-03-22 12:26:23.208976]:Traceback (most recent call last):
+  File "/home/crivac/aguas_casar_bot/start_bot.py", line 124, in on_chat_message
+    xl_file = pd.read_excel(open(file))
+FileNotFoundError: [Errno 2] No such file or directory: 'prueba.xlsx'
+
+@#$%&[2021-03-22 12:28:15.103721]:Traceback (most recent call last):
+  File "/home/crivac/aguas_casar_bot/start_bot.py", line 125, in on_chat_message
+    xl_file = pd.read_excel(file)
+  File "/usr/local/lib/python3.6/dist-packages/pandas/util/_decorators.py", line 188, in wrapper
+    return func(*args, **kwargs)
+  File "/usr/local/lib/python3.6/dist-packages/pandas/util/_decorators.py", line 188, in wrapper
+    return func(*args, **kwargs)
+  File "/usr/local/lib/python3.6/dist-packages/pandas/io/excel.py", line 350, in read_excel
+    io = ExcelFile(io, engine=engine)
+  File "/usr/local/lib/python3.6/dist-packages/pandas/io/excel.py", line 653, in __init__
+    self._reader = self._engines[engine](self._io)
+  File "/usr/local/lib/python3.6/dist-packages/pandas/io/excel.py", line 424, in __init__
+    self.book = xlrd.open_workbook(filepath_or_buffer)
+  File "/usr/local/lib/python3.6/dist-packages/xlrd/__init__.py", line 166, in open_workbook
+    file_format = inspect_format(filename, file_contents)
+  File "/usr/local/lib/python3.6/dist-packages/xlrd/__init__.py", line 60, in inspect_format
+    with open(path, "rb") as f:
+FileNotFoundError: [Errno 2] No such file or directory: 'prueba.xlsx'
+
+@#$%&[2021-03-22 12:29:03.862841]:Traceback (most recent call last):
+  File "/home/crivac/aguas_casar_bot/start_bot.py", line 125, in on_chat_message
+    xl_file = pd.read_excel(file, sheetname='Informe')
+  File "/usr/local/lib/python3.6/dist-packages/pandas/util/_decorators.py", line 188, in wrapper
+    return func(*args, **kwargs)
+  File "/usr/local/lib/python3.6/dist-packages/pandas/util/_decorators.py", line 188, in wrapper
+    return func(*args, **kwargs)
+  File "/usr/local/lib/python3.6/dist-packages/pandas/io/excel.py", line 350, in read_excel
+    io = ExcelFile(io, engine=engine)
+  File "/usr/local/lib/python3.6/dist-packages/pandas/io/excel.py", line 653, in __init__
+    self._reader = self._engines[engine](self._io)
+  File "/usr/local/lib/python3.6/dist-packages/pandas/io/excel.py", line 424, in __init__
+    self.book = xlrd.open_workbook(filepath_or_buffer)
+  File "/usr/local/lib/python3.6/dist-packages/xlrd/__init__.py", line 166, in open_workbook
+    file_format = inspect_format(filename, file_contents)
+  File "/usr/local/lib/python3.6/dist-packages/xlrd/__init__.py", line 60, in inspect_format
+    with open(path, "rb") as f:
+FileNotFoundError: [Errno 2] No such file or directory: 'prueba.xlsx'
+
+@#$%&[2021-03-22 12:29:26.930755]:Traceback (most recent call last):
+  File "/home/crivac/aguas_casar_bot/start_bot.py", line 125, in on_chat_message
+    xl_file = pd.read_excel(file, sheet_name='Informe')
+  File "/usr/local/lib/python3.6/dist-packages/pandas/util/_decorators.py", line 188, in wrapper
+    return func(*args, **kwargs)
+  File "/usr/local/lib/python3.6/dist-packages/pandas/util/_decorators.py", line 188, in wrapper
+    return func(*args, **kwargs)
+  File "/usr/local/lib/python3.6/dist-packages/pandas/io/excel.py", line 350, in read_excel
+    io = ExcelFile(io, engine=engine)
+  File "/usr/local/lib/python3.6/dist-packages/pandas/io/excel.py", line 653, in __init__
+    self._reader = self._engines[engine](self._io)
+  File "/usr/local/lib/python3.6/dist-packages/pandas/io/excel.py", line 424, in __init__
+    self.book = xlrd.open_workbook(filepath_or_buffer)
+  File "/usr/local/lib/python3.6/dist-packages/xlrd/__init__.py", line 166, in open_workbook
+    file_format = inspect_format(filename, file_contents)
+  File "/usr/local/lib/python3.6/dist-packages/xlrd/__init__.py", line 60, in inspect_format
+    with open(path, "rb") as f:
+FileNotFoundError: [Errno 2] No such file or directory: 'prueba.xlsx'
+
+@#$%&[2021-03-22 12:29:49.713493]:Traceback (most recent call last):
+  File "/home/crivac/aguas_casar_bot/start_bot.py", line 125, in on_chat_message
+    xl_file = pd.read_excel(file, sheet_name='Informe')
+  File "/usr/local/lib/python3.6/dist-packages/pandas/util/_decorators.py", line 188, in wrapper
+    return func(*args, **kwargs)
+  File "/usr/local/lib/python3.6/dist-packages/pandas/util/_decorators.py", line 188, in wrapper
+    return func(*args, **kwargs)
+  File "/usr/local/lib/python3.6/dist-packages/pandas/io/excel.py", line 350, in read_excel
+    io = ExcelFile(io, engine=engine)
+  File "/usr/local/lib/python3.6/dist-packages/pandas/io/excel.py", line 653, in __init__
+    self._reader = self._engines[engine](self._io)
+  File "/usr/local/lib/python3.6/dist-packages/pandas/io/excel.py", line 424, in __init__
+    self.book = xlrd.open_workbook(filepath_or_buffer)
+  File "/usr/local/lib/python3.6/dist-packages/xlrd/__init__.py", line 166, in open_workbook
+    file_format = inspect_format(filename, file_contents)
+  File "/usr/local/lib/python3.6/dist-packages/xlrd/__init__.py", line 60, in inspect_format
+    with open(path, "rb") as f:
+FileNotFoundError: [Errno 2] No such file or directory: 'prueba.xlsx'
+
+@#$%&[2021-03-22 12:30:05.186730]:Traceback (most recent call last):
+  File "/home/crivac/aguas_casar_bot/start_bot.py", line 125, in on_chat_message
+    xl_file = pd.read_excel(file, sheet_name='Informe')
+  File "/usr/local/lib/python3.6/dist-packages/pandas/util/_decorators.py", line 188, in wrapper
+    return func(*args, **kwargs)
+  File "/usr/local/lib/python3.6/dist-packages/pandas/util/_decorators.py", line 188, in wrapper
+    return func(*args, **kwargs)
+  File "/usr/local/lib/python3.6/dist-packages/pandas/io/excel.py", line 350, in read_excel
+    io = ExcelFile(io, engine=engine)
+  File "/usr/local/lib/python3.6/dist-packages/pandas/io/excel.py", line 653, in __init__
+    self._reader = self._engines[engine](self._io)
+  File "/usr/local/lib/python3.6/dist-packages/pandas/io/excel.py", line 424, in __init__
+    self.book = xlrd.open_workbook(filepath_or_buffer)
+  File "/usr/local/lib/python3.6/dist-packages/xlrd/__init__.py", line 166, in open_workbook
+    file_format = inspect_format(filename, file_contents)
+  File "/usr/local/lib/python3.6/dist-packages/xlrd/__init__.py", line 60, in inspect_format
+    with open(path, "rb") as f:
+FileNotFoundError: [Errno 2] No such file or directory: 'prueba.xlsx'
+
+@#$%&[2021-03-22 12:31:22.932418]:Traceback (most recent call last):
+  File "/home/crivac/aguas_casar_bot/start_bot.py", line 125, in on_chat_message
+    xl_file = pd.read_excel(file, sheet_name='Informe')
+  File "/usr/local/lib/python3.6/dist-packages/pandas/util/_decorators.py", line 188, in wrapper
+    return func(*args, **kwargs)
+  File "/usr/local/lib/python3.6/dist-packages/pandas/util/_decorators.py", line 188, in wrapper
+    return func(*args, **kwargs)
+  File "/usr/local/lib/python3.6/dist-packages/pandas/io/excel.py", line 350, in read_excel
+    io = ExcelFile(io, engine=engine)
+  File "/usr/local/lib/python3.6/dist-packages/pandas/io/excel.py", line 653, in __init__
+    self._reader = self._engines[engine](self._io)
+  File "/usr/local/lib/python3.6/dist-packages/pandas/io/excel.py", line 424, in __init__
+    self.book = xlrd.open_workbook(filepath_or_buffer)
+  File "/usr/local/lib/python3.6/dist-packages/xlrd/__init__.py", line 166, in open_workbook
+    file_format = inspect_format(filename, file_contents)
+  File "/usr/local/lib/python3.6/dist-packages/xlrd/__init__.py", line 60, in inspect_format
+    with open(path, "rb") as f:
+FileNotFoundError: [Errno 2] No such file or directory: 'prueba.xlsx'
+
+@#$%&[2021-03-22 12:33:07.287060]:Traceback (most recent call last):
+  File "/home/crivac/aguas_casar_bot/start_bot.py", line 125, in on_chat_message
+    xl_file = pd.read_excel(rutaarchivo, sheet_name='Informe')
+  File "/usr/local/lib/python3.6/dist-packages/pandas/util/_decorators.py", line 188, in wrapper
+    return func(*args, **kwargs)
+  File "/usr/local/lib/python3.6/dist-packages/pandas/util/_decorators.py", line 188, in wrapper
+    return func(*args, **kwargs)
+  File "/usr/local/lib/python3.6/dist-packages/pandas/io/excel.py", line 350, in read_excel
+    io = ExcelFile(io, engine=engine)
+  File "/usr/local/lib/python3.6/dist-packages/pandas/io/excel.py", line 653, in __init__
+    self._reader = self._engines[engine](self._io)
+  File "/usr/local/lib/python3.6/dist-packages/pandas/io/excel.py", line 424, in __init__
+    self.book = xlrd.open_workbook(filepath_or_buffer)
+  File "/usr/local/lib/python3.6/dist-packages/xlrd/__init__.py", line 170, in open_workbook
+    raise XLRDError(FILE_FORMAT_DESCRIPTIONS[file_format]+'; not supported')
+xlrd.biffh.XLRDError: Excel xlsx file; not supported
+
+@#$%&[2021-03-22 12:34:27.444068]:Traceback (most recent call last):
+  File "/home/crivac/aguas_casar_bot/start_bot.py", line 125, in on_chat_message
+    xl_file = pd.read_excel(r'/home/crivac/aguas_casar_bot/documents/prueba.xlsx', sheet_name='Informe')
+  File "/usr/local/lib/python3.6/dist-packages/pandas/util/_decorators.py", line 188, in wrapper
+    return func(*args, **kwargs)
+  File "/usr/local/lib/python3.6/dist-packages/pandas/util/_decorators.py", line 188, in wrapper
+    return func(*args, **kwargs)
+  File "/usr/local/lib/python3.6/dist-packages/pandas/io/excel.py", line 350, in read_excel
+    io = ExcelFile(io, engine=engine)
+  File "/usr/local/lib/python3.6/dist-packages/pandas/io/excel.py", line 653, in __init__
+    self._reader = self._engines[engine](self._io)
+  File "/usr/local/lib/python3.6/dist-packages/pandas/io/excel.py", line 424, in __init__
+    self.book = xlrd.open_workbook(filepath_or_buffer)
+  File "/usr/local/lib/python3.6/dist-packages/xlrd/__init__.py", line 170, in open_workbook
+    raise XLRDError(FILE_FORMAT_DESCRIPTIONS[file_format]+'; not supported')
+xlrd.biffh.XLRDError: Excel xlsx file; not supported
+
+@#$%&[2021-03-22 12:36:29.724693]:Traceback (most recent call last):
+  File "/home/crivac/aguas_casar_bot/start_bot.py", line 125, in on_chat_message
+    xl_file = pd.read_excel(r'resultados 1 variable.xlsx', sheet_name='None')
+  File "/usr/local/lib/python3.6/dist-packages/pandas/util/_decorators.py", line 188, in wrapper
+    return func(*args, **kwargs)
+  File "/usr/local/lib/python3.6/dist-packages/pandas/util/_decorators.py", line 188, in wrapper
+    return func(*args, **kwargs)
+  File "/usr/local/lib/python3.6/dist-packages/pandas/io/excel.py", line 350, in read_excel
+    io = ExcelFile(io, engine=engine)
+  File "/usr/local/lib/python3.6/dist-packages/pandas/io/excel.py", line 653, in __init__
+    self._reader = self._engines[engine](self._io)
+  File "/usr/local/lib/python3.6/dist-packages/pandas/io/excel.py", line 424, in __init__
+    self.book = xlrd.open_workbook(filepath_or_buffer)
+  File "/usr/local/lib/python3.6/dist-packages/xlrd/__init__.py", line 166, in open_workbook
+    file_format = inspect_format(filename, file_contents)
+  File "/usr/local/lib/python3.6/dist-packages/xlrd/__init__.py", line 60, in inspect_format
+    with open(path, "rb") as f:
+FileNotFoundError: [Errno 2] No such file or directory: 'resultados 1 variable.xlsx'
+
+@#$%&[2021-03-22 12:36:52.234047]:Traceback (most recent call last):
+  File "/home/crivac/aguas_casar_bot/start_bot.py", line 125, in on_chat_message
+    xl_file = pd.read_excel('resultados 1 variable.xlsx', sheet_name='None')
+  File "/usr/local/lib/python3.6/dist-packages/pandas/util/_decorators.py", line 188, in wrapper
+    return func(*args, **kwargs)
+  File "/usr/local/lib/python3.6/dist-packages/pandas/util/_decorators.py", line 188, in wrapper
+    return func(*args, **kwargs)
+  File "/usr/local/lib/python3.6/dist-packages/pandas/io/excel.py", line 350, in read_excel
+    io = ExcelFile(io, engine=engine)
+  File "/usr/local/lib/python3.6/dist-packages/pandas/io/excel.py", line 653, in __init__
+    self._reader = self._engines[engine](self._io)
+  File "/usr/local/lib/python3.6/dist-packages/pandas/io/excel.py", line 424, in __init__
+    self.book = xlrd.open_workbook(filepath_or_buffer)
+  File "/usr/local/lib/python3.6/dist-packages/xlrd/__init__.py", line 166, in open_workbook
+    file_format = inspect_format(filename, file_contents)
+  File "/usr/local/lib/python3.6/dist-packages/xlrd/__init__.py", line 60, in inspect_format
+    with open(path, "rb") as f:
+FileNotFoundError: [Errno 2] No such file or directory: 'resultados 1 variable.xlsx'
+
+@#$%&[2021-03-22 12:38:37.591553]:Traceback (most recent call last):
+  File "/home/crivac/aguas_casar_bot/start_bot.py", line 127, in on_chat_message
+    wb = openpyxl.load_workbook(filename=file, data_only=True)
+  File "/usr/local/lib/python3.6/dist-packages/openpyxl/reader/excel.py", line 316, in load_workbook
+    data_only, keep_links)
+  File "/usr/local/lib/python3.6/dist-packages/openpyxl/reader/excel.py", line 124, in __init__
+    self.archive = _validate_archive(fn)
+  File "/usr/local/lib/python3.6/dist-packages/openpyxl/reader/excel.py", line 96, in _validate_archive
+    archive = ZipFile(filename, 'r')
+  File "/usr/lib/python3.6/zipfile.py", line 1113, in __init__
+    self.fp = io.open(file, filemode)
+FileNotFoundError: [Errno 2] No such file or directory: 'prueba.xlsx'
+
+@#$%&[2021-03-22 12:40:08.667438]:Traceback (most recent call last):
+  File "/home/crivac/aguas_casar_bot/start_bot.py", line 126, in on_chat_message
+    f = open("demofile.txt", "r")
+FileNotFoundError: [Errno 2] No such file or directory: 'demofile.txt'
+
+@#$%&[2021-03-22 12:43:41.818517]:Traceback (most recent call last):
+  File "/home/crivac/aguas_casar_bot/start_bot.py", line 125, in on_chat_message
+    df = pd.read_excel(file, sheetname='Informe')
+  File "/usr/local/lib/python3.6/dist-packages/pandas/util/_decorators.py", line 188, in wrapper
+    return func(*args, **kwargs)
+  File "/usr/local/lib/python3.6/dist-packages/pandas/util/_decorators.py", line 188, in wrapper
+    return func(*args, **kwargs)
+  File "/usr/local/lib/python3.6/dist-packages/pandas/io/excel.py", line 350, in read_excel
+    io = ExcelFile(io, engine=engine)
+  File "/usr/local/lib/python3.6/dist-packages/pandas/io/excel.py", line 653, in __init__
+    self._reader = self._engines[engine](self._io)
+  File "/usr/local/lib/python3.6/dist-packages/pandas/io/excel.py", line 424, in __init__
+    self.book = xlrd.open_workbook(filepath_or_buffer)
+  File "/usr/local/lib/python3.6/dist-packages/xlrd/__init__.py", line 170, in open_workbook
+    raise XLRDError(FILE_FORMAT_DESCRIPTIONS[file_format]+'; not supported')
+xlrd.biffh.XLRDError: Excel xlsx file; not supported
+
+@#$%&[2021-03-22 12:46:37.139627]:Traceback (most recent call last):
+  File "/home/crivac/aguas_casar_bot/start_bot.py", line 124, in on_chat_message
+    csv_from_excel(file)
+  File "/home/crivac/aguas_casar_bot/start_bot.py", line 82, in csv_from_excel
+    wb = xlrd.open_workbook(file)
+  File "/usr/local/lib/python3.6/dist-packages/xlrd/__init__.py", line 170, in open_workbook
+    raise XLRDError(FILE_FORMAT_DESCRIPTIONS[file_format]+'; not supported')
+xlrd.biffh.XLRDError: Excel xlsx file; not supported
+
+@#$%&[2021-03-22 12:47:11.094820]:Traceback (most recent call last):
+  File "/home/crivac/aguas_casar_bot/start_bot.py", line 125, in on_chat_message
+    csv_from_excel(file)
+  File "/home/crivac/aguas_casar_bot/start_bot.py", line 82, in csv_from_excel
+    wb = xlrd.open_workbook(file)
+  File "/usr/local/lib/python3.6/dist-packages/xlrd/__init__.py", line 170, in open_workbook
+    raise XLRDError(FILE_FORMAT_DESCRIPTIONS[file_format]+'; not supported')
+xlrd.biffh.XLRDError: Excel xlsx file; not supported
+
+@#$%&[2021-03-22 12:47:29.845200]:Traceback (most recent call last):
+  File "/home/crivac/aguas_casar_bot/start_bot.py", line 125, in on_chat_message
+    csv_from_excel(file)
+  File "/home/crivac/aguas_casar_bot/start_bot.py", line 82, in csv_from_excel
+    print('pasa')
+  File "/usr/local/lib/python3.6/dist-packages/xlrd/__init__.py", line 170, in open_workbook
+    raise XLRDError(FILE_FORMAT_DESCRIPTIONS[file_format]+'; not supported')
+xlrd.biffh.XLRDError: Excel xlsx file; not supported
+
+@#$%&[2021-03-22 12:47:40.414044]:Traceback (most recent call last):
+  File "/home/crivac/aguas_casar_bot/start_bot.py", line 125, in on_chat_message
+    csv_from_excel(file)
+  File "/home/crivac/aguas_casar_bot/start_bot.py", line 83, in csv_from_excel
+    wb = xlrd.open_workbook(file)
+  File "/usr/local/lib/python3.6/dist-packages/xlrd/__init__.py", line 170, in open_workbook
+    raise XLRDError(FILE_FORMAT_DESCRIPTIONS[file_format]+'; not supported')
+xlrd.biffh.XLRDError: Excel xlsx file; not supported
+
+@#$%&[2021-03-22 12:47:58.076450]:Traceback (most recent call last):
+  File "/home/crivac/aguas_casar_bot/start_bot.py", line 126, in on_chat_message
+    csv_from_excel(file)
+  File "/home/crivac/aguas_casar_bot/start_bot.py", line 83, in csv_from_excel
+    wb = xlrd.open_workbook(file)
+  File "/usr/local/lib/python3.6/dist-packages/xlrd/__init__.py", line 170, in open_workbook
+    raise XLRDError(FILE_FORMAT_DESCRIPTIONS[file_format]+'; not supported')
+xlrd.biffh.XLRDError: Excel xlsx file; not supported
+
+@#$%&[2021-03-22 13:22:54.197083]:Traceback (most recent call last):
+  File "/home/crivac/aguas_casar_bot/start_bot.py", line 130, in on_chat_message
+    xlsxtocsv(file, documents_folder)
+  File "/home/crivac/aguas_casar_bot/start_bot.py", line 84, in xlsxtocsv
+    csv = open(filepath, "w+")
+FileNotFoundError: [Errno 2] No such file or directory: '/home/crivac/aguas_casar_bot/documents/home/crivac/aguas_casar_bot/documents/prueba.xlsx'
+
+@#$%&[2021-03-22 13:23:16.877150]:Traceback (most recent call last):
+  File "/home/crivac/aguas_casar_bot/start_bot.py", line 131, in on_chat_message
+    xlsxtocsv(file, documents_folder)
+  File "/home/crivac/aguas_casar_bot/start_bot.py", line 85, in xlsxtocsv
+    csv = open(filepath, "w+")
+FileNotFoundError: [Errno 2] No such file or directory: '/home/crivac/aguas_casar_bot/documents/home/crivac/aguas_casar_bot/documents/prueba.xlsx'
+
+@#$%&[2021-03-22 13:24:05.201632]:Traceback (most recent call last):
+  File "/home/crivac/aguas_casar_bot/start_bot.py", line 133, in on_chat_message
+    xlsxtocsv(file, documents_folder)
+  File "/home/crivac/aguas_casar_bot/start_bot.py", line 85, in xlsxtocsv
+    csv = open(filepath, "w+")
+FileNotFoundError: [Errno 2] No such file or directory: '/home/crivac/aguas_casar_bot/documents/home/crivac/aguas_casar_bot/documents/prueba.xlsx'
+
+@#$%&[2021-03-22 13:24:34.481121]:Traceback (most recent call last):
+  File "/home/crivac/aguas_casar_bot/start_bot.py", line 133, in on_chat_message
+    xlsxtocsv(file, documents_folder)
+  File "/home/crivac/aguas_casar_bot/start_bot.py", line 85, in xlsxtocsv
+    csv = open(filepath, "w+")
+FileNotFoundError: [Errno 2] No such file or directory: '/home/crivac/aguas_casar_bot/documents/home/crivac/aguas_casar_bot/documents/prueba.xlsx'
+
+@#$%&[2021-03-22 13:25:01.751853]:Traceback (most recent call last):
+  File "/home/crivac/aguas_casar_bot/start_bot.py", line 132, in on_chat_message
+    xlsxtocsv(file, documents_folder)
+  File "/home/crivac/aguas_casar_bot/start_bot.py", line 84, in xlsxtocsv
+    csv = open(filepath, "w+")
+FileNotFoundError: [Errno 2] No such file or directory: '/home/crivac/aguas_casar_bot/documents/home/crivac/aguas_casar_bot/documents/prueba.xlsx'
+
+@#$%&[2021-03-22 13:25:33.127917]:Traceback (most recent call last):
+  File "/home/crivac/aguas_casar_bot/start_bot.py", line 133, in on_chat_message
+    xlsxtocsv(file, documents_folder)
+  File "/home/crivac/aguas_casar_bot/start_bot.py", line 84, in xlsxtocsv
+    csv = open(filepath, "w+")
+FileNotFoundError: [Errno 2] No such file or directory: '/home/crivac/aguas_casar_bot/documents/home/crivac/aguas_casar_bot/documents/prueba.xlsx'
+
+@#$%&[2021-03-22 13:31:04.603500]:Traceback (most recent call last):
+  File "/home/crivac/aguas_casar_bot/start_bot.py", line 130, in on_chat_message
+    filepath=file
+NameError: name 'file' is not defined
+
+@#$%&[2021-03-22 13:44:19.517219]:Traceback (most recent call last):
+  File "/home/crivac/aguas_casar_bot/start_bot.py", line 132, in on_chat_message
+    xlsxtocsv(new_file, documents_folder, document_name)
+TypeError: xlsxtocsv() takes 2 positional arguments but 3 were given
+
+@#$%&[2021-03-22 13:45:01.683692]:Traceback (most recent call last):
+  File "/home/crivac/aguas_casar_bot/start_bot.py", line 132, in on_chat_message
+    xlsxtocsv(new_file, documents_folder, document_name)
+  File "/home/crivac/aguas_casar_bot/start_bot.py", line 80, in xlsxtocsv
+    etapedar = document_name.split(sep='.')
+NameError: name 'document_name' is not defined
+
+@#$%&[2021-03-22 13:45:15.025472]:Traceback (most recent call last):
+  File "/home/crivac/aguas_casar_bot/start_bot.py", line 132, in on_chat_message
+    xlsxtocsv(new_file, documents_folder, document_name)
+  File "/home/crivac/aguas_casar_bot/start_bot.py", line 80, in xlsxtocsv
+    etapedar = document_name.split(sep='.')
+NameError: name 'document_name' is not defined
+
+@#$%&[2021-04-21 11:08:54.124346]:Traceback (most recent call last):
+  File "/home/crivac/aguas_casar_bot/start_bot.py", line 135, in on_chat_message
+    pathnewfile=xlsxtocsv(new_file, documents_folder, document_name)
+  File "/home/crivac/aguas_casar_bot/start_bot.py", line 84, in xlsxtocsv
+    sheet_ranges = xlsx['range names']
+  File "/usr/local/lib/python3.6/dist-packages/openpyxl/workbook/workbook.py", line 288, in __getitem__
+    raise KeyError("Worksheet {0} does not exist.".format(key))
+KeyError: 'Worksheet range names does not exist.'
+
+@#$%&[2021-04-21 11:09:01.785012]:Traceback (most recent call last):
+  File "/home/crivac/aguas_casar_bot/start_bot.py", line 135, in on_chat_message
+    pathnewfile=xlsxtocsv(new_file, documents_folder, document_name)
+  File "/home/crivac/aguas_casar_bot/start_bot.py", line 84, in xlsxtocsv
+    sheet_ranges = xlsx['range names']
+  File "/usr/local/lib/python3.6/dist-packages/openpyxl/workbook/workbook.py", line 288, in __getitem__
+    raise KeyError("Worksheet {0} does not exist.".format(key))
+KeyError: 'Worksheet range names does not exist.'
+
+@#$%&[2021-04-21 11:19:13.515253]:Traceback (most recent call last):
+  File "/home/crivac/aguas_casar_bot/start_bot.py", line 137, in on_chat_message
+    pathnewfile=xlsxtocsv(new_file, documents_folder, document_name)
+  File "/home/crivac/aguas_casar_bot/start_bot.py", line 87, in xlsxtocsv
+    print(list(data[0]))
+TypeError: 'generator' object is not subscriptable
+
+@#$%&[2021-04-21 11:20:16.301686]:Traceback (most recent call last):
+  File "/home/crivac/aguas_casar_bot/start_bot.py", line 137, in on_chat_message
+    pathnewfile=xlsxtocsv(new_file, documents_folder, document_name)
+  File "/home/crivac/aguas_casar_bot/start_bot.py", line 87, in xlsxtocsv
+    print(data[0])
+TypeError: 'generator' object is not subscriptable
+
+@#$%&[2021-04-21 11:34:17.870599]:Traceback (most recent call last):
+  File "/home/crivac/aguas_casar_bot/start_bot.py", line 143, in on_chat_message
+    pathnewfile=xlsxtocsv(new_file, documents_folder, document_name)
+  File "/home/crivac/aguas_casar_bot/start_bot.py", line 92, in xlsxtocsv
+    writer=csv.DisctWriter(csvfile, fieldnames=fieldnames)
+AttributeError: module 'csv' has no attribute 'DisctWriter'
+
+@#$%&[2021-04-21 11:35:02.726352]:Traceback (most recent call last):
+  File "/home/crivac/aguas_casar_bot/start_bot.py", line 144, in on_chat_message
+    pathnewfile=xlsxtocsv(new_file, documents_folder, document_name)
+  File "/home/crivac/aguas_casar_bot/start_bot.py", line 93, in xlsxtocsv
+    writer=csv.DisctWriter(csvfile, fieldnames=fieldnames)
+AttributeError: module 'csv' has no attribute 'DisctWriter'
+
+@#$%&[2021-04-21 11:35:30.885352]:Traceback (most recent call last):
+  File "/home/crivac/aguas_casar_bot/start_bot.py", line 144, in on_chat_message
+    pathnewfile=xlsxtocsv(new_file, documents_folder, document_name)
+  File "/home/crivac/aguas_casar_bot/start_bot.py", line 92, in xlsxtocsv
+    writer=csv.DisctWriter(csvfile, fieldnames=fieldnames)
+AttributeError: module 'csv' has no attribute 'DisctWriter'
+
+@#$%&[2021-04-21 11:36:09.503293]:Traceback (most recent call last):
+  File "/home/crivac/aguas_casar_bot/start_bot.py", line 144, in on_chat_message
+    pathnewfile=xlsxtocsv(new_file, documents_folder, document_name)
+  File "/home/crivac/aguas_casar_bot/start_bot.py", line 101, in xlsxtocsv
+    writer = csv.DisctWriter(csvfile, fieldnames=fieldnames)
+AttributeError: module 'csv' has no attribute 'DisctWriter'
+
+@#$%&[2021-04-21 11:36:38.380227]:Traceback (most recent call last):
+  File "/home/crivac/aguas_casar_bot/start_bot.py", line 140, in on_chat_message
+    pathnewfile=xlsxtocsv(new_file, documents_folder, document_name)
+  File "/home/crivac/aguas_casar_bot/start_bot.py", line 106, in xlsxtocsv
+    csv.close()
+AttributeError: module 'csv' has no attribute 'close'
+
+@#$%&[2021-04-21 11:37:45.479986]:Traceback (most recent call last):
+  File "/home/crivac/aguas_casar_bot/start_bot.py", line 142, in on_chat_message
+    pathnewfile=xlsxtocsv(new_file, documents_folder, document_name)
+  File "/home/crivac/aguas_casar_bot/start_bot.py", line 108, in xlsxtocsv
+    csv.close()
+AttributeError: module 'csv' has no attribute 'close'
+
+@#$%&[2021-04-21 11:38:10.387190]:Traceback (most recent call last):
+  File "/home/crivac/aguas_casar_bot/start_bot.py", line 143, in on_chat_message
+    pathnewfile=xlsxtocsv(new_file, documents_folder, document_name)
+  File "/home/crivac/aguas_casar_bot/start_bot.py", line 109, in xlsxtocsv
+    csv.close()
+AttributeError: module 'csv' has no attribute 'close'
+
+@#$%&[2021-04-21 11:39:47.514198]:Traceback (most recent call last):
+  File "/home/crivac/aguas_casar_bot/start_bot.py", line 143, in on_chat_message
+    pathnewfile=xlsxtocsv(new_file, documents_folder, document_name)
+  File "/home/crivac/aguas_casar_bot/start_bot.py", line 109, in xlsxtocsv
+    csv.close()
+AttributeError: module 'csv' has no attribute 'close'
+
+@#$%&[2021-04-21 12:10:05.327998]:Traceback (most recent call last):
+  File "/home/crivac/aguas_casar_bot/start_bot.py", line 160, in on_chat_message
+    pathnewfile=xlsxtocsv(new_file, documents_folder, document_name)
+  File "/home/crivac/aguas_casar_bot/start_bot.py", line 104, in xlsxtocsv
+    csv_reader = csv.reader(csvfile, delimiter=',')
+TypeError: argument 1 must be an iterator
+
+@#$%&[2021-04-21 12:12:26.762272]:Traceback (most recent call last):
+  File "/home/crivac/aguas_casar_bot/start_bot.py", line 159, in on_chat_message
+    pathnewfile=xlsxtocsv(new_file, documents_folder, document_name)
+  File "/home/crivac/aguas_casar_bot/start_bot.py", line 104, in xlsxtocsv
+    csv_reader = csv.reader(csvfile, delimiter=',')
+TypeError: argument 1 must be an iterator
+
+@#$%&[2021-04-21 12:12:59.177543]:Traceback (most recent call last):
+  File "/home/crivac/aguas_casar_bot/start_bot.py", line 158, in on_chat_message
+    pathnewfile=xlsxtocsv(new_file, documents_folder, document_name)
+  File "/home/crivac/aguas_casar_bot/start_bot.py", line 104, in xlsxtocsv
+    csv_reader = csv.reader(csvfile, delimiter=',')
+TypeError: argument 1 must be an iterator
+
+@#$%&[2021-04-21 12:14:32.134256]:Traceback (most recent call last):
+  File "/home/crivac/aguas_casar_bot/start_bot.py", line 159, in on_chat_message
+    pathnewfile=xlsxtocsv(new_file, documents_folder, document_name)
+  File "/home/crivac/aguas_casar_bot/start_bot.py", line 105, in xlsxtocsv
+    csv_reader = csv.reader(csvfile, delimiter=',')
+TypeError: argument 1 must be an iterator
+
+@#$%&[2021-04-21 12:14:53.993338]:Traceback (most recent call last):
+  File "/home/crivac/aguas_casar_bot/start_bot.py", line 159, in on_chat_message
+    pathnewfile=xlsxtocsv(new_file, documents_folder, document_name)
+  File "/home/crivac/aguas_casar_bot/start_bot.py", line 105, in xlsxtocsv
+    csv_reader = csv.reader(csvfile, delimiter=';')
+TypeError: argument 1 must be an iterator
+
+@#$%&[2021-04-21 12:30:07.656650]:Traceback (most recent call last):
+  File "/home/crivac/aguas_casar_bot/start_bot.py", line 156, in on_chat_message
+    pathnewfile=xlsxtocsv(new_file, documents_folder, document_name)
+  File "/home/crivac/aguas_casar_bot/start_bot.py", line 103, in xlsxtocsv
+    with open(filepath, encoding='latin1') as csvfile:
+FileNotFoundError: [Errno 2] No such file or directory: '/home/crivac/aguas_casar_bot/documents/agua potable_2021-04-21 12:30:07.656434.csv'
+
+@#$%&[2021-04-21 12:30:28.569460]:Traceback (most recent call last):
+  File "/home/crivac/aguas_casar_bot/start_bot.py", line 157, in on_chat_message
+    pathnewfile=xlsxtocsv(new_file, documents_folder, document_name)
+  File "/home/crivac/aguas_casar_bot/start_bot.py", line 103, in xlsxtocsv
+    with open(filepath, encoding='latin1') as csvfile:
+FileNotFoundError: [Errno 2] No such file or directory: '/home/crivac/aguas_casar_bot/documents/agua potable_2021-04-21 12:30:28.569269.csv'
+
+@#$%&[2021-04-21 12:31:01.486929]:Traceback (most recent call last):
+  File "/home/crivac/aguas_casar_bot/start_bot.py", line 157, in on_chat_message
+    pathnewfile=xlsxtocsv(new_file, documents_folder, document_name)
+  File "/home/crivac/aguas_casar_bot/start_bot.py", line 103, in xlsxtocsv
+    with open(filepath, encoding='latin1') as csvfile:
+FileNotFoundError: [Errno 2] No such file or directory: '/home/crivac/aguas_casar_bot/documents/agua potable_2021-04-21 12:31:01.486726.csv'
+
+@#$%&[2021-04-21 12:31:32.898095]:Traceback (most recent call last):
+  File "/home/crivac/aguas_casar_bot/start_bot.py", line 158, in on_chat_message
+    pathnewfile=xlsxtocsv(new_file, documents_folder, document_name)
+  File "/home/crivac/aguas_casar_bot/start_bot.py", line 104, in xlsxtocsv
+    with open(filepath, encoding='latin1') as csvfile:
+FileNotFoundError: [Errno 2] No such file or directory: '/home/crivac/aguas_casar_bot/documents/agua potable_2021-04-21 12:31:32.897888.csv'
+
+@#$%&[2021-04-21 12:32:14.163607]:Traceback (most recent call last):
+  File "/home/crivac/aguas_casar_bot/start_bot.py", line 158, in on_chat_message
+    pathnewfile=xlsxtocsv(new_file, documents_folder, document_name)
+  File "/home/crivac/aguas_casar_bot/start_bot.py", line 104, in xlsxtocsv
+    with open(filepath) as csvfile:
+FileNotFoundError: [Errno 2] No such file or directory: '/home/crivac/aguas_casar_bot/documents/agua potable_2021-04-21 12:32:14.163413.csv'
+
+@#$%&[2021-04-21 12:35:16.225353]:Traceback (most recent call last):
+  File "/home/crivac/aguas_casar_bot/start_bot.py", line 155, in on_chat_message
+    pathnewfile=xlsxtocsv(new_file, documents_folder, document_name)
+  File "/home/crivac/aguas_casar_bot/start_bot.py", line 107, in xlsxtocsv
+    if x == 0 or row[1] == '#N/A':
+IndexError: list index out of range
+
+@#$%&[2021-04-21 12:35:37.072175]:Traceback (most recent call last):
+  File "/home/crivac/aguas_casar_bot/start_bot.py", line 155, in on_chat_message
+    pathnewfile=xlsxtocsv(new_file, documents_folder, document_name)
+  File "/home/crivac/aguas_casar_bot/start_bot.py", line 107, in xlsxtocsv
+    if x == 0 or row[1] == '#N/A':
+IndexError: list index out of range
+
+@#$%&[2021-04-21 12:35:57.852187]:Traceback (most recent call last):
+  File "/home/crivac/aguas_casar_bot/start_bot.py", line 155, in on_chat_message
+    pathnewfile=xlsxtocsv(new_file, documents_folder, document_name)
+  File "/home/crivac/aguas_casar_bot/start_bot.py", line 107, in xlsxtocsv
+    if x == 0 or row[1] == '#N/A':
+IndexError: list index out of range
+
+@#$%&[2021-04-21 12:36:18.631220]:Traceback (most recent call last):
+  File "/home/crivac/aguas_casar_bot/start_bot.py", line 156, in on_chat_message
+    pathnewfile=xlsxtocsv(new_file, documents_folder, document_name)
+  File "/home/crivac/aguas_casar_bot/start_bot.py", line 107, in xlsxtocsv
+    if x == 0 or row[1] == '#N/A':
+IndexError: list index out of range
+
+@#$%&[2021-04-21 12:36:52.565040]:Traceback (most recent call last):
+  File "/home/crivac/aguas_casar_bot/start_bot.py", line 157, in on_chat_message
+    pathnewfile=xlsxtocsv(new_file, documents_folder, document_name)
+  File "/home/crivac/aguas_casar_bot/start_bot.py", line 107, in xlsxtocsv
+    if x == 0 or row[1] == '#N/A':
+IndexError: list index out of range
+
+@#$%&[2021-04-21 12:37:59.844912]:Traceback (most recent call last):
+  File "/home/crivac/aguas_casar_bot/start_bot.py", line 158, in on_chat_message
+    pathnewfile=xlsxtocsv(new_file, documents_folder, document_name)
+  File "/home/crivac/aguas_casar_bot/start_bot.py", line 108, in xlsxtocsv
+    if x == 0 or row[1] == '#N/A':
+IndexError: list index out of range
+
+@#$%&[2021-04-21 12:38:30.678099]:Traceback (most recent call last):
+  File "/home/crivac/aguas_casar_bot/start_bot.py", line 158, in on_chat_message
+    pathnewfile=xlsxtocsv(new_file, documents_folder, document_name)
+  File "/home/crivac/aguas_casar_bot/start_bot.py", line 114, in xlsxtocsv
+    tiempo = time.mktime(datetime.datetime.strptime(row[j], "%Y-%m-%d").timetuple())
+  File "/usr/lib/python3.6/_strptime.py", line 565, in _strptime_datetime
+    tt, fraction = _strptime(data_string, format)
+  File "/usr/lib/python3.6/_strptime.py", line 365, in _strptime
+    data_string[found.end():])
+ValueError: unconverted data remains:  00:00:00
+
+@#$%&[2021-04-21 12:39:05.380855]:Traceback (most recent call last):
+  File "/home/crivac/aguas_casar_bot/start_bot.py", line 158, in on_chat_message
+    pathnewfile=xlsxtocsv(new_file, documents_folder, document_name)
+  File "/home/crivac/aguas_casar_bot/start_bot.py", line 114, in xlsxtocsv
+    tiempo = time.mktime(datetime.datetime.strptime(row[j], "%Y-%m-%d").timetuple())
+  File "/usr/lib/python3.6/_strptime.py", line 565, in _strptime_datetime
+    tt, fraction = _strptime(data_string, format)
+  File "/usr/lib/python3.6/_strptime.py", line 365, in _strptime
+    data_string[found.end():])
+ValueError: unconverted data remains:  00:00:00
+
+@#$%&[2021-04-21 12:44:48.002396]:Traceback (most recent call last):
+  File "/home/crivac/aguas_casar_bot/start_bot.py", line 157, in on_chat_message
+    pathnewfile=xlsxtocsv(new_file, documents_folder, document_name)
+  File "/home/crivac/aguas_casar_bot/start_bot.py", line 117, in xlsxtocsv
+    informacion = {'measurement': "Contador:" + i, 'tags': {'Localidad': 'Casar'},
+TypeError: must be str, not int
+
+@#$%&[2021-04-21 17:34:02.285645]:Traceback (most recent call last):
+  File "/home/crivac/aguas_casar_bot/start_bot.py", line 165, in on_chat_message
+    pathnewfile=xlsxtocsv(new_file, documents_folder, document_name)
+  File "/home/crivac/aguas_casar_bot/start_bot.py", line 106, in xlsxtocsv
+    dic[fieldnames[i]]=str(l[i].value)
+IndexError: list index out of range
+
+@#$%&[2021-04-21 17:35:25.606113]:Traceback (most recent call last):
+  File "/home/crivac/aguas_casar_bot/start_bot.py", line 168, in on_chat_message
+    pathnewfile=xlsxtocsv(new_file, documents_folder, document_name)
+  File "/home/crivac/aguas_casar_bot/start_bot.py", line 109, in xlsxtocsv
+    dic[fieldnames[i]]=str(l[i].value)
+IndexError: list index out of range
+
+@#$%&[2021-04-21 17:35:55.030030]:Traceback (most recent call last):
+  File "/home/crivac/aguas_casar_bot/start_bot.py", line 169, in on_chat_message
+    pathnewfile=xlsxtocsv(new_file, documents_folder, document_name)
+  File "/home/crivac/aguas_casar_bot/start_bot.py", line 109, in xlsxtocsv
+    dic[fieldnames[i]]=str(l[i].value)
+IndexError: list index out of range
+
+@#$%&[2021-04-21 17:37:17.835603]:Traceback (most recent call last):
+  File "/home/crivac/aguas_casar_bot/start_bot.py", line 170, in on_chat_message
+    pathnewfile=xlsxtocsv(new_file, documents_folder, document_name)
+  File "/home/crivac/aguas_casar_bot/start_bot.py", line 110, in xlsxtocsv
+    dic[fieldnames[i]]=str(l[i].value)
+IndexError: list index out of range
+
+@#$%&[2021-04-21 17:38:19.469026]:Traceback (most recent call last):
+  File "/home/crivac/aguas_casar_bot/start_bot.py", line 170, in on_chat_message
+    pathnewfile=xlsxtocsv(new_file, documents_folder, document_name)
+  File "/home/crivac/aguas_casar_bot/start_bot.py", line 109, in xlsxtocsv
+    print(dic[fieldnames[i]])
+IndexError: list index out of range
+
+@#$%&[2021-04-21 17:39:29.569086]:Traceback (most recent call last):
+  File "/home/crivac/aguas_casar_bot/start_bot.py", line 170, in on_chat_message
+    pathnewfile=xlsxtocsv(new_file, documents_folder, document_name)
+  File "/home/crivac/aguas_casar_bot/start_bot.py", line 109, in xlsxtocsv
+    print(fieldnames[i])
+IndexError: list index out of range
+
+@#$%&[2021-04-21 17:40:12.906924]:Traceback (most recent call last):
+  File "/home/crivac/aguas_casar_bot/start_bot.py", line 171, in on_chat_message
+    pathnewfile=xlsxtocsv(new_file, documents_folder, document_name)
+  File "/home/crivac/aguas_casar_bot/start_bot.py", line 110, in xlsxtocsv
+    print(fieldnames[i])
+IndexError: list index out of range
+
+@#$%&[2021-04-21 17:40:41.339500]:Traceback (most recent call last):
+  File "/home/crivac/aguas_casar_bot/start_bot.py", line 171, in on_chat_message
+    pathnewfile=xlsxtocsv(new_file, documents_folder, document_name)
+  File "/home/crivac/aguas_casar_bot/start_bot.py", line 111, in xlsxtocsv
+    dic[fieldnames[i]]=str(l[i].value)
+IndexError: list index out of range
+
+@#$%&[2021-04-21 17:49:57.501234]:Traceback (most recent call last):
+  File "/home/crivac/aguas_casar_bot/start_bot.py", line 162, in on_chat_message
+    pathnewfile=xlsxtocsv(new_file, documents_folder, document_name)
+  File "/home/crivac/aguas_casar_bot/start_bot.py", line 121, in xlsxtocsv
+    dicmed[fieldnames[j]]=float(row[j])
+ValueError: could not convert string to float: '2021-01-01 00:00:00'
+
+@#$%&[2021-04-21 17:50:34.231231]:Traceback (most recent call last):
+  File "/home/crivac/aguas_casar_bot/start_bot.py", line 164, in on_chat_message
+    pathnewfile=xlsxtocsv(new_file, documents_folder, document_name)
+  File "/home/crivac/aguas_casar_bot/start_bot.py", line 122, in xlsxtocsv
+    dicmed[fieldnames[j]]=float(row[j])
+ValueError: could not convert string to float: '2021-01-01 00:00:00'
+
+@#$%&[2021-04-22 09:20:49.583971]:Traceback (most recent call last):
+  File "start_bot.py", line 164, in on_chat_message
+    pathnewfile=xlsxtocsv(new_file, documents_folder, document_name)
+  File "start_bot.py", line 128, in xlsxtocsv
+    datoinside = client.write_points(json_body, time_precision='s')
+  File "/usr/local/lib/python3.6/dist-packages/influxdb/client.py", line 490, in write_points
+    tags=tags, protocol=protocol)
+  File "/usr/local/lib/python3.6/dist-packages/influxdb/client.py", line 551, in _write_points
+    protocol=protocol
+  File "/usr/local/lib/python3.6/dist-packages/influxdb/client.py", line 327, in write
+    headers=headers
+  File "/usr/local/lib/python3.6/dist-packages/influxdb/client.py", line 286, in request
+    raise InfluxDBClientError(response.content, response.status_code)
+influxdb.exceptions.InfluxDBClientError: 400: {"error":"partial write: field type conflict: input field \"Volumen\" on measurement \"Casar:agua potable\" is type float, already exists as type integer dropped=1"}
+
+
+@#$%&[2021-04-22 09:22:15.299411]:Traceback (most recent call last):
+  File "start_bot.py", line 165, in on_chat_message
+    pathnewfile=xlsxtocsv(new_file, documents_folder, client)
+  File "start_bot.py", line 129, in xlsxtocsv
+    datoinside = client.write_points(json_body, time_precision='s')
+  File "/usr/local/lib/python3.6/dist-packages/influxdb/client.py", line 490, in write_points
+    tags=tags, protocol=protocol)
+  File "/usr/local/lib/python3.6/dist-packages/influxdb/client.py", line 551, in _write_points
+    protocol=protocol
+  File "/usr/local/lib/python3.6/dist-packages/influxdb/client.py", line 327, in write
+    headers=headers
+  File "/usr/local/lib/python3.6/dist-packages/influxdb/client.py", line 286, in request
+    raise InfluxDBClientError(response.content, response.status_code)
+influxdb.exceptions.InfluxDBClientError: 400: {"error":"partial write: field type conflict: input field \"Volumen\" on measurement \"Casar:agua potable\" is type float, already exists as type integer dropped=1"}
+
+
+@#$%&[2021-04-22 09:23:08.616605]:Traceback (most recent call last):
+  File "start_bot.py", line 165, in on_chat_message
+    pathnewfile=xlsxtocsv(new_file, documents_folder, client)
+  File "start_bot.py", line 129, in xlsxtocsv
+    datoinside = client.write_points(json_body, time_precision='s')
+  File "/usr/local/lib/python3.6/dist-packages/influxdb/client.py", line 490, in write_points
+    tags=tags, protocol=protocol)
+  File "/usr/local/lib/python3.6/dist-packages/influxdb/client.py", line 551, in _write_points
+    protocol=protocol
+  File "/usr/local/lib/python3.6/dist-packages/influxdb/client.py", line 327, in write
+    headers=headers
+  File "/usr/local/lib/python3.6/dist-packages/influxdb/client.py", line 286, in request
+    raise InfluxDBClientError(response.content, response.status_code)
+influxdb.exceptions.InfluxDBClientError: 400: {"error":"partial write: field type conflict: input field \"Volumen\" on measurement \"Casar:agua potable\" is type float, already exists as type integer dropped=1"}
+
+
+@#$%&[2021-04-22 09:29:19.111078]:Traceback (most recent call last):
+  File "start_bot.py", line 166, in on_chat_message
+    pathnewfile=xlsxtocsv(new_file, documents_folder, client)
+  File "start_bot.py", line 130, in xlsxtocsv
+    datoinside = client.write_points(json_body, time_precision='s')
+  File "/usr/local/lib/python3.6/dist-packages/influxdb/client.py", line 490, in write_points
+    tags=tags, protocol=protocol)
+  File "/usr/local/lib/python3.6/dist-packages/influxdb/client.py", line 551, in _write_points
+    protocol=protocol
+  File "/usr/local/lib/python3.6/dist-packages/influxdb/client.py", line 327, in write
+    headers=headers
+  File "/usr/local/lib/python3.6/dist-packages/influxdb/client.py", line 286, in request
+    raise InfluxDBClientError(response.content, response.status_code)
+influxdb.exceptions.InfluxDBClientError: 400: {"error":"partial write: field type conflict: input field \"Volumen\" on measurement \"Casar:agua potable\" is type float, already exists as type integer dropped=1"}
+
+
+@#$%&[2021-04-22 09:34:36.970387]:Traceback (most recent call last):
+  File "start_bot.py", line 164, in on_chat_message
+    pathnewfile=xlsxtocsv(new_file, documents_folder, client)
+  File "start_bot.py", line 128, in xlsxtocsv
+    datoinside = client.write_points(json_body, time_precision='s')
+  File "/usr/local/lib/python3.6/dist-packages/influxdb/client.py", line 490, in write_points
+    tags=tags, protocol=protocol)
+  File "/usr/local/lib/python3.6/dist-packages/influxdb/client.py", line 551, in _write_points
+    protocol=protocol
+  File "/usr/local/lib/python3.6/dist-packages/influxdb/client.py", line 327, in write
+    headers=headers
+  File "/usr/local/lib/python3.6/dist-packages/influxdb/client.py", line 286, in request
+    raise InfluxDBClientError(response.content, response.status_code)
+influxdb.exceptions.InfluxDBClientError: 400: {"error":"partial write: field type conflict: input field \"Volumen\" on measurement \"Casar:agua potable\" is type float, already exists as type integer dropped=1"}
+
+
+@#$%&[2021-04-27 17:16:58.804896]:Traceback (most recent call last):
+  File "start_bot.py", line 164, in on_chat_message
+    pathnewfile=xlsxtocsv(new_file, documents_folder, client)
+  File "start_bot.py", line 85, in xlsxtocsv
+    xlsx = openpyxl.load_workbook(file)# Cargamos
+  File "/usr/local/lib/python3.6/dist-packages/openpyxl/reader/excel.py", line 316, in load_workbook
+    data_only, keep_links)
+  File "/usr/local/lib/python3.6/dist-packages/openpyxl/reader/excel.py", line 124, in __init__
+    self.archive = _validate_archive(fn)
+  File "/usr/local/lib/python3.6/dist-packages/openpyxl/reader/excel.py", line 96, in _validate_archive
+    archive = ZipFile(filename, 'r')
+  File "/usr/lib/python3.6/zipfile.py", line 1131, in __init__
+    self._RealGetContents()
+  File "/usr/lib/python3.6/zipfile.py", line 1198, in _RealGetContents
+    raise BadZipFile("File is not a zip file")
+zipfile.BadZipFile: File is not a zip file
+
+@#$%&[2021-04-27 17:17:32.098554]:Traceback (most recent call last):
+  File "start_bot.py", line 164, in on_chat_message
+    pathnewfile=xlsxtocsv(new_file, documents_folder, client)
+  File "start_bot.py", line 85, in xlsxtocsv
+    xlsx = openpyxl.load_workbook(file)# Cargamos
+  File "/usr/local/lib/python3.6/dist-packages/openpyxl/reader/excel.py", line 316, in load_workbook
+    data_only, keep_links)
+  File "/usr/local/lib/python3.6/dist-packages/openpyxl/reader/excel.py", line 124, in __init__
+    self.archive = _validate_archive(fn)
+  File "/usr/local/lib/python3.6/dist-packages/openpyxl/reader/excel.py", line 96, in _validate_archive
+    archive = ZipFile(filename, 'r')
+  File "/usr/lib/python3.6/zipfile.py", line 1131, in __init__
+    self._RealGetContents()
+  File "/usr/lib/python3.6/zipfile.py", line 1198, in _RealGetContents
+    raise BadZipFile("File is not a zip file")
+zipfile.BadZipFile: File is not a zip file
+
+@#$%&[2021-04-28 09:11:28.396839]:Traceback (most recent call last):
+  File "start_bot.py", line 164, in on_chat_message
+    pathnewfile=xlsxtocsv(new_file, documents_folder, client)
+  File "start_bot.py", line 85, in xlsxtocsv
+    xlsx = openpyxl.load_workbook(file)# Cargamos
+  File "/usr/local/lib/python3.6/dist-packages/openpyxl/reader/excel.py", line 316, in load_workbook
+    data_only, keep_links)
+  File "/usr/local/lib/python3.6/dist-packages/openpyxl/reader/excel.py", line 124, in __init__
+    self.archive = _validate_archive(fn)
+  File "/usr/local/lib/python3.6/dist-packages/openpyxl/reader/excel.py", line 96, in _validate_archive
+    archive = ZipFile(filename, 'r')
+  File "/usr/lib/python3.6/zipfile.py", line 1131, in __init__
+    self._RealGetContents()
+  File "/usr/lib/python3.6/zipfile.py", line 1198, in _RealGetContents
+    raise BadZipFile("File is not a zip file")
+zipfile.BadZipFile: File is not a zip file
+
+@#$%&[2021-05-05 09:53:50.101215]:Traceback (most recent call last):
+  File "start_bot.py", line 164, in on_chat_message
+    pathnewfile=xlsxtocsv(new_file, documents_folder, client)
+  File "start_bot.py", line 85, in xlsxtocsv
+    xlsx = openpyxl.load_workbook(file)# Cargamos
+  File "/usr/local/lib/python3.6/dist-packages/openpyxl/reader/excel.py", line 316, in load_workbook
+    data_only, keep_links)
+  File "/usr/local/lib/python3.6/dist-packages/openpyxl/reader/excel.py", line 124, in __init__
+    self.archive = _validate_archive(fn)
+  File "/usr/local/lib/python3.6/dist-packages/openpyxl/reader/excel.py", line 96, in _validate_archive
+    archive = ZipFile(filename, 'r')
+  File "/usr/lib/python3.6/zipfile.py", line 1131, in __init__
+    self._RealGetContents()
+  File "/usr/lib/python3.6/zipfile.py", line 1198, in _RealGetContents
+    raise BadZipFile("File is not a zip file")
+zipfile.BadZipFile: File is not a zip file
+
+@#$%&[2021-11-22 10:28:45.845437]:Traceback (most recent call last):
+  File "start_bot.py", line 164, in on_chat_message
+    pathnewfile=xlsxtocsv(new_file, documents_folder, client)
+  File "start_bot.py", line 119, in xlsxtocsv
+    tiempo = time.mktime(datetime.datetime.strptime(fecha_separado[0], "%Y-%m-%d").timetuple())
+  File "/usr/lib/python3.6/_strptime.py", line 565, in _strptime_datetime
+    tt, fraction = _strptime(data_string, format)
+  File "/usr/lib/python3.6/_strptime.py", line 362, in _strptime
+    (data_string, format))
+ValueError: time data 'None' does not match format '%Y-%m-%d'
+
+@#$%&[2021-11-22 10:35:18.204953]:Traceback (most recent call last):
+  File "start_bot.py", line 164, in on_chat_message
+    pathnewfile=xlsxtocsv(new_file, documents_folder, client)
+  File "start_bot.py", line 119, in xlsxtocsv
+    tiempo = time.mktime(datetime.datetime.strptime(fecha_separado[0], "%Y-%m-%d").timetuple())
+  File "/usr/lib/python3.6/_strptime.py", line 565, in _strptime_datetime
+    tt, fraction = _strptime(data_string, format)
+  File "/usr/lib/python3.6/_strptime.py", line 362, in _strptime
+    (data_string, format))
+ValueError: time data 'None' does not match format '%Y-%m-%d'
+
+@#$%&[2021-11-22 10:37:12.042960]:Traceback (most recent call last):
+  File "start_bot.py", line 164, in on_chat_message
+    pathnewfile=xlsxtocsv(new_file, documents_folder, client)
+  File "start_bot.py", line 119, in xlsxtocsv
+    tiempo = time.mktime(datetime.datetime.strptime(fecha_separado[0], "%Y-%m-%d").timetuple())
+  File "/usr/lib/python3.6/_strptime.py", line 565, in _strptime_datetime
+    tt, fraction = _strptime(data_string, format)
+  File "/usr/lib/python3.6/_strptime.py", line 362, in _strptime
+    (data_string, format))
+ValueError: time data 'None' does not match format '%Y-%m-%d'
+
+@#$%&[2021-11-22 10:38:41.019989]:Traceback (most recent call last):
+  File "start_bot.py", line 164, in on_chat_message
+    pathnewfile=xlsxtocsv(new_file, documents_folder, client)
+  File "start_bot.py", line 119, in xlsxtocsv
+    tiempo = time.mktime(datetime.datetime.strptime(fecha_separado[0], "%Y-%m-%d").timetuple())
+  File "/usr/lib/python3.6/_strptime.py", line 565, in _strptime_datetime
+    tt, fraction = _strptime(data_string, format)
+  File "/usr/lib/python3.6/_strptime.py", line 362, in _strptime
+    (data_string, format))
+ValueError: time data 'None' does not match format '%Y-%m-%d'
+
+@#$%&[2021-11-22 10:45:52.977175]:Traceback (most recent call last):
+  File "start_bot.py", line 164, in on_chat_message
+    pathnewfile=xlsxtocsv(new_file, documents_folder, client)
+  File "start_bot.py", line 119, in xlsxtocsv
+    tiempo = time.mktime(datetime.datetime.strptime(fecha_separado[0], "%Y-%m-%d").timetuple())
+  File "/usr/lib/python3.6/_strptime.py", line 565, in _strptime_datetime
+    tt, fraction = _strptime(data_string, format)
+  File "/usr/lib/python3.6/_strptime.py", line 362, in _strptime
+    (data_string, format))
+ValueError: time data 'None' does not match format '%Y-%m-%d'
+
+@#$%&[2022-06-01 09:39:28.957043]:Traceback (most recent call last):
+  File "start_bot.py", line 164, in on_chat_message
+    pathnewfile=xlsxtocsv(new_file, documents_folder, client)
+  File "start_bot.py", line 85, in xlsxtocsv
+    xlsx = openpyxl.load_workbook(file)# Cargamos
+  File "/usr/local/lib/python3.6/dist-packages/openpyxl/reader/excel.py", line 316, in load_workbook
+    data_only, keep_links)
+  File "/usr/local/lib/python3.6/dist-packages/openpyxl/reader/excel.py", line 124, in __init__
+    self.archive = _validate_archive(fn)
+  File "/usr/local/lib/python3.6/dist-packages/openpyxl/reader/excel.py", line 96, in _validate_archive
+    archive = ZipFile(filename, 'r')
+  File "/usr/lib/python3.6/zipfile.py", line 1131, in __init__
+    self._RealGetContents()
+  File "/usr/lib/python3.6/zipfile.py", line 1198, in _RealGetContents
+    raise BadZipFile("File is not a zip file")
+zipfile.BadZipFile: File is not a zip file
+
+@#$%&[2022-06-01 14:40:42.136171]:Traceback (most recent call last):
+  File "start_bot.py", line 164, in on_chat_message
+    pathnewfile=xlsxtocsv(new_file, documents_folder, client)
+  File "start_bot.py", line 119, in xlsxtocsv
+    tiempo = time.mktime(datetime.datetime.strptime(fecha_separado[0], "%Y-%m-%d").timetuple())
+  File "/usr/lib/python3.6/_strptime.py", line 565, in _strptime_datetime
+    tt, fraction = _strptime(data_string, format)
+  File "/usr/lib/python3.6/_strptime.py", line 362, in _strptime
+    (data_string, format))
+ValueError: time data '6145684' does not match format '%Y-%m-%d'
+
+@#$%&[2022-06-01 14:42:28.467604]:Traceback (most recent call last):
+  File "start_bot.py", line 164, in on_chat_message
+    pathnewfile=xlsxtocsv(new_file, documents_folder, client)
+  File "start_bot.py", line 119, in xlsxtocsv
+    tiempo = time.mktime(datetime.datetime.strptime(fecha_separado[0], "%Y-%m-%d").timetuple())
+  File "/usr/lib/python3.6/_strptime.py", line 565, in _strptime_datetime
+    tt, fraction = _strptime(data_string, format)
+  File "/usr/lib/python3.6/_strptime.py", line 362, in _strptime
+    (data_string, format))
+ValueError: time data '6145539' does not match format '%Y-%m-%d'
+

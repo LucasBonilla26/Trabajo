@@ -1,0 +1,67 @@
+● valvulastoinflux.service - ValvulasToInflux
+   Loaded: loaded (/etc/systemd/system/valvulastoinflux.service; enabled; vendor preset: enabled)
+   Active: active (running) since Sun 2021-10-24 01:13:09 CEST; 2 weeks 1 days ago
+ Main PID: 25506 (python3)
+    Tasks: 2 (limit: 6143)
+   CGroup: /system.slice/valvulastoinflux.service
+           └─25506 /usr/bin/python3 /root/ValvulaScripts/valvulastoinflux.py
+
+Nov 05 19:19:24 zato-test python3[25506]: {'applicationID': '4', 'applicationName': 'VickyLoRa', 'deviceName': 'UEXCC_INF_P00_DES022_RAD_V_001', 'devEUI': '70b3d52dd3000d68', 'rxInfo': [{'gatewayID': 'c0ee40ffff294108', 'uplinkID': 'a2252dcd-1dd7-4ab1-9568-14e013aed90d', 'name': 'EPCC', 'rssi': -98, 'loRaSNR': 8, 'location': {'latitude': 0, 'longitude': 0, 'altitude': 0}}], 'txInfo': {'frequency': 868100000, 'dr': 0}, 'adr': True, 'fCnt': 131, 'fPort': 2, 'data': 'AQVXc6OjEeAA', 'object': {'batteryVoltage': 3.4000000000000004, 'brokenSensor': False, 'childLock': False, 'highMotorConsumption': False, 'lowMotorConsumption': False, 'motorPosition': 419, 'motorRange': 419, 'openWindow': False, 'reason': 1, 'relativeHumidity': 44.921875, 'sensorTemperature': 16.07421875, 'targetTemperature': 5}}
+Nov 05 19:19:24 zato-test python3[25506]: [{'measurement': 'UEXCC_INF_P00_DES022_RAD_V_001', 'tags': {'gatewayID': 'c0ee40ffff294108'}, 'fields': {'rssi': -98.0, 'loRaSNR': 7.8, 'batteryVoltage': 3.4000000000000004, 'brokenSensor': False, 'childLock': False, 'highMotorConsumption': False, 'lowMotorConsumption': False, 'motorPosition': 419.0, 'motorRange': 419.0, 'openWindow': False, 'reason': 1, 'relativeHumidity': 44.921875, 'sensorTemperature': 16.07421875, 'targetTemperature': 5.0}}]
+Nov 05 19:19:24 zato-test python3[25506]: {'applicationID': '4', 'applicationName': 'VickyLoRa', 'deviceName': 'UEXCC_INF_P00_DES022_RAD_V_001', 'devEUI': '70b3d52dd3000d68', 'rxInfo': [{'gatewayID': 'c0ee40ffff294108', 'uplinkID': '30c12e99-5be9-444f-9b38-154f8402060d', 'name': 'EPCC', 'rssi': -98, 'loRaSNR': 7.8, 'location': {'latitude': 0, 'longitude': 0, 'altitude': 0}}], 'txInfo': {'frequency': 867500000, 'dr': 0}, 'adr': True, 'fCnt': 131, 'fPort': 2, 'data': 'AQVXc6OjEeAA', 'object': {'batteryVoltage': 3.4000000000000004, 'brokenSensor': False, 'childLock': False, 'highMotorConsumption': False, 'lowMotorConsumption': False, 'motorPosition': 419, 'motorRange': 419, 'openWindow': False, 'reason': 1, 'relativeHumidity': 44.921875, 'sensorTemperature': 16.07421875, 'targetTemperature': 5}}
+Nov 05 19:19:24 zato-test python3[25506]: [{'measurement': 'UEXCC_INF_P00_COM009_RAD_P_001', 'tags': {'gatewayID': 'c0ee40ffff294108'}, 'fields': {'rssi': -118.0, 'loRaSNR': -9.5, 'batteryVoltage': 3.4000000000000004, 'brokenSensor': False, 'childLock': False, 'highMotorConsumption': False, 'lowMotorConsumption': False, 'motorPosition': 0.0, 'motorRange': 0.0, 'openWindow': False, 'reason': 1, 'relativeHumidity': 45.3125, 'sensorTemperature': 16.71875, 'targetTemperature': 5.0}}]
+Nov 05 19:19:24 zato-test python3[25506]: {'applicationID': '4', 'applicationName': 'VickyLoRa', 'deviceName': 'UEXCC_INF_P00_COM009_RAD_P_001', 'devEUI': '70b3d52dd3000eea', 'rxInfo': [{'gatewayID': 'c0ee40ffff294108', 'uplinkID': 'cab27c76-06a3-414c-83ea-b52751a796c1', 'name': 'EPCC', 'rssi': -118, 'loRaSNR': -9.5, 'location': {'latitude': 0, 'longitude': 0, 'altitude': 0}}], 'txInfo': {'frequency': 867500000, 'dr': 0}, 'adr': True, 'fCnt': 86, 'fPort': 2, 'data': 'AQVYdAAAAOAA', 'object': {'batteryVoltage': 3.4000000000000004, 'brokenSensor': False, 'childLock': False, 'highMotorConsumption': False, 'lowMotorConsumption': False, 'motorPosition': 0, 'motorRange': 0, 'openWindow': False, 'reason': 1, 'relativeHumidity': 45.3125, 'sensorTemperature': 16.71875, 'targetTemperature': 5}}
+Nov 05 19:19:24 zato-test python3[25506]: [{'measurement': 'UEXCC_INF_P00_COM048_RAD_PO_001', 'tags': {'gatewayID': 'c0ee40ffff294108'}, 'fields': {'rssi': -82.0, 'loRaSNR': 9.2, 'batteryVoltage': 3.4000000000000004, 'brokenSensor': False, 'childLock': False, 'highMotorConsumption': False, 'lowMotorConsumption': False, 'motorPosition': 409.0, 'motorRange': 409.0, 'openWindow': False, 'reason': 1, 'relativeHumidity': 41.015625, 'sensorTemperature': 16.71875, 'targetTemperature': 5.0}}]
+Nov 05 19:19:24 zato-test python3[25506]: {'applicationID': '4', 'applicationName': 'VickyLoRa', 'deviceName': 'UEXCC_INF_P00_COM048_RAD_PO_001', 'devEUI': '70b3d52dd3000e26', 'rxInfo': [{'gatewayID': 'c0ee40ffff294108', 'uplinkID': '26bf7b93-2991-42e8-aa3d-6baffd2b9fe5', 'name': 'EPCC', 'rssi': -82, 'loRaSNR': 9.2, 'location': {'latitude': 0, 'longitude': 0, 'altitude': 0}}], 'txInfo': {'frequency': 867500000, 'dr': 0}, 'adr': True, 'fCnt': 108, 'fPort': 2, 'data': 'AQVYaZmZEeAA', 'object': {'batteryVoltage': 3.4000000000000004, 'brokenSensor': False, 'childLock': False, 'highMotorConsumption': False, 'lowMotorConsumption': False, 'motorPosition': 409, 'motorRange': 409, 'openWindow': False, 'reason': 1, 'relativeHumidity': 41.015625, 'sensorTemperature': 16.71875, 'targetTemperature': 5}}
+Nov 05 19:19:24 zato-test python3[25506]: [{'measurement': 'UEXCC_INF_P00_COM009_RAD_P_001', 'tags': {'gatewayID': 'c0ee40ffff294108'}, 'fields': {'rssi': -120.0, 'loRaSNR': -10.0, 'batteryVoltage': 3.4000000000000004, 'brokenSensor': False, 'childLock': False, 'highMotorConsumption': False, 'lowMotorConsumption': False, 'motorPosition': 0.0, 'motorRange': 0.0, 'openWindow': False, 'reason': 1, 'relativeHumidity': 45.3125, 'sensorTemperature': 16.71875, 'targetTemperature': 5.0}}]
+Nov 05 19:19:24 zato-test python3[25506]: {'applicationID': '4', 'applicationName': 'VickyLoRa', 'deviceName': 'UEXCC_INF_P00_COM009_RAD_P_001', 'devEUI': '70b3d52dd3000eea', 'rxInfo': [{'gatewayID': 'c0ee40ffff294108', 'uplinkID': '91a671cb-f24e-49fc-baca-4cb2c898d357', 'name': 'EPCC', 'rssi': -120, 'loRaSNR': -10, 'location': {'latitude': 0, 'longitude': 0, 'altitude': 0}}], 'txInfo': {'frequency': 868100000, 'dr': 0}, 'adr': True, 'fCnt': 86, 'fPort': 2, 'data': 'AQVYdAAAAOAA', 'object': {'batteryVoltage': 3.4000000000000004, 'brokenSensor': False, 'childLock': False, 'highMotorConsumption': False, 'lowMotorConsumption': False, 'motorPosition': 0, 'motorRange': 0, 'openWindow': False, 'reason': 1, 'relativeHumidity': 45.3125, 'sensorTemperature': 16.71875, 'targetTemperature': 5}}
+Nov 05 19:19:24 zato-test python3[25506]: [{'measurement': 'UEXCC_INF_P00_COM048_RAD_PO_001', 'tags': {'gatewayID': 'c0ee40ffff294108'}, 'fields': {'rssi': -88.0, 'loRaSNR': 6.5, 'batteryVoltage': 3.4000000000000004, 'brokenSensor': False, 'childLock': False, 'highMotorConsumption': False, 'lowMotorConsumption': False, 'motorPosition': 409.0, 'motorRange': 409.0, 'openWindow': False, 'reason': 1, 'relativeHumidity': 41.015625, 'sensorTemperature': 16.71875, 'targetTemperature': 5.0}}]
+● valvulastoinflux.service - ValvulasToInflux
+   Loaded: loaded (/etc/systemd/system/valvulastoinflux.service; enabled; vendor preset: enabled)
+   Active: active (running) since Mon 2021-11-08 09:34:31 CET; 9s ago
+ Main PID: 39464 (python3)
+    Tasks: 2 (limit: 6143)
+   CGroup: /system.slice/valvulastoinflux.service
+           └─39464 /usr/bin/python3 /root/ValvulaScripts/valvulastoinflux.py
+
+Nov 08 09:34:31 zato-test systemd[1]: Stopped ValvulasToInflux.
+Nov 08 09:34:31 zato-test systemd[1]: valvulastoinflux.service: Failed to reset devices.list: Operation not permitted
+Nov 08 09:34:31 zato-test systemd[1]: Started ValvulasToInflux.
+● valvulastoinflux.service - ValvulasToInflux
+   Loaded: loaded (/etc/systemd/system/valvulastoinflux.service; enabled; vendor preset: enabled)
+   Active: active (running) since Mon 2021-11-08 09:34:31 CET; 35s ago
+ Main PID: 39464 (python3)
+    Tasks: 2 (limit: 6143)
+   CGroup: /system.slice/valvulastoinflux.service
+           └─39464 /usr/bin/python3 /root/ValvulaScripts/valvulastoinflux.py
+
+Nov 08 09:34:31 zato-test systemd[1]: Stopped ValvulasToInflux.
+Nov 08 09:34:31 zato-test systemd[1]: valvulastoinflux.service: Failed to reset devices.list: Operation not permitted
+Nov 08 09:34:31 zato-test systemd[1]: Started ValvulasToInflux.
+● valvulastoinflux.service - ValvulasToInflux
+   Loaded: loaded (/etc/systemd/system/valvulastoinflux.service; enabled; vendor preset: enabled)
+   Active: active (running) since Mon 2021-11-08 09:35:24 CET; 2s ago
+ Main PID: 39483 (python3)
+    Tasks: 2 (limit: 6143)
+   CGroup: /system.slice/valvulastoinflux.service
+           └─39483 /usr/bin/python3 /root/ValvulaScripts/valvulastoinflux.py
+
+Nov 08 09:35:24 zato-test systemd[1]: Started ValvulasToInflux.
+● valvulastoinflux.service - ValvulasToInflux
+   Loaded: loaded (/etc/systemd/system/valvulastoinflux.service; enabled; vendor preset: enabled)
+   Active: active (running) since Mon 2021-11-08 09:35:24 CET; 1min 17s ago
+ Main PID: 39483 (python3)
+    Tasks: 2 (limit: 6143)
+   CGroup: /system.slice/valvulastoinflux.service
+           └─39483 /usr/bin/python3 /root/ValvulaScripts/valvulastoinflux.py
+
+Nov 08 09:36:31 zato-test python3[39483]: [{'measurement': 'UEXCC_INF_P01_DES044_RAD_V_001', 'tags': {'gatewayID': 'c0ee40ffff294108'}, 'fields': {'rssi': -105.0, 'loRaSNR': 5.5, 'batteryVoltage': 3.4000000000000004, 'brokenSensor': False, 'childLock': False, 'highMotorConsumption': False, 'lowMotorConsumption': False, 'motorPosition': 0.0, 'motorRange': 460.0, 'openWindow': False, 'reason': 1, 'relativeHumidity': 39.84375, 'sensorTemperature': 16.71875, 'targetTemperature': 21.0}}]
+Nov 08 09:36:31 zato-test python3[39483]: {'applicationID': '4', 'applicationName': 'VickyLoRa', 'deviceName': 'UEXCC_INF_P01_DES044_RAD_V_001', 'devEUI': '70b3d52dd3001282', 'rxInfo': [{'gatewayID': 'c0ee40ffff294108', 'uplinkID': '19674b6f-c352-4e64-87ff-cf317f38a541', 'name': 'EPCC', 'rssi': -105, 'loRaSNR': 5.5, 'location': {'latitude': 0, 'longitude': 0, 'altitude': 0}}], 'txInfo': {'frequency': 868500000, 'dr': 0}, 'adr': True, 'fCnt': 40, 'fPort': 2, 'data': 'ARVYZgDMAeAA', 'object': {'batteryVoltage': 3.4000000000000004, 'brokenSensor': False, 'childLock': False, 'highMotorConsumption': False, 'lowMotorConsumption': False, 'motorPosition': 0, 'motorRange': 460, 'openWindow': False, 'reason': 1, 'relativeHumidity': 39.84375, 'sensorTemperature': 16.71875, 'targetTemperature': 21}}
+Nov 08 09:36:31 zato-test python3[39483]: HOLA
+Nov 08 09:36:31 zato-test python3[39483]: [{'measurement': 'UEXCC_INF_P01_AUL029_RAD_PS_001', 'tags': {'gatewayID': 'c0ee40ffff294108'}, 'fields': {'rssi': -84.0, 'loRaSNR': 8.0, 'batteryVoltage': 3.4000000000000004, 'brokenSensor': False, 'childLock': False, 'highMotorConsumption': False, 'lowMotorConsumption': False, 'motorPosition': 0.0, 'motorRange': 0.0, 'openWindow': False, 'reason': 1, 'relativeHumidity': 48.046875, 'sensorTemperature': 14.78515625, 'targetTemperature': 21.0}}]
+Nov 08 09:36:31 zato-test python3[39483]: {'applicationID': '4', 'applicationName': 'VickyLoRa', 'deviceName': 'UEXCC_INF_P01_AUL029_RAD_PS_001', 'devEUI': '70b3d52dd300106c', 'rxInfo': [{'gatewayID': 'c0ee40ffff294108', 'uplinkID': '6b0a0366-d2ae-4839-9443-7cf3c4a2045a', 'name': 'EPCC', 'rssi': -84, 'loRaSNR': 8, 'location': {'latitude': 0, 'longitude': 0, 'altitude': 0}}], 'txInfo': {'frequency': 867500000, 'dr': 0}, 'adr': True, 'fCnt': 30, 'fPort': 2, 'data': 'ARVVewAAAOAA', 'object': {'batteryVoltage': 3.4000000000000004, 'brokenSensor': False, 'childLock': False, 'highMotorConsumption': False, 'lowMotorConsumption': False, 'motorPosition': 0, 'motorRange': 0, 'openWindow': False, 'reason': 1, 'relativeHumidity': 48.046875, 'sensorTemperature': 14.78515625, 'targetTemperature': 21}}
+Nov 08 09:36:31 zato-test python3[39483]: HOLA
+Nov 08 09:36:31 zato-test python3[39483]: [{'measurement': 'UEXCC_INF_P01_LAB042_RAD_V_001', 'tags': {'gatewayID': 'c0ee40ffff294108'}, 'fields': {'rssi': -100.0, 'loRaSNR': 8.5, 'batteryVoltage': 3.4000000000000004, 'brokenSensor': False, 'childLock': False, 'highMotorConsumption': False, 'lowMotorConsumption': False, 'motorPosition': 5.0, 'motorRange': 425.0, 'openWindow': False, 'reason': 1, 'relativeHumidity': 41.015625, 'sensorTemperature': 19.296875, 'targetTemperature': 21.0}}]
+Nov 08 09:36:31 zato-test python3[39483]: {'applicationID': '4', 'applicationName': 'VickyLoRa', 'deviceName': 'UEXCC_INF_P01_LAB042_RAD_V_001', 'devEUI': '70b3d52dd3000d3d', 'rxInfo': [{'gatewayID': 'c0ee40ffff294108', 'uplinkID': 'ee75756a-1190-4d6e-9ac9-15a4b3561626', 'name': 'EPCC', 'rssi': -100, 'loRaSNR': 8.5, 'location': {'latitude': 0, 'longitude': 0, 'altitude': 0}}], 'txInfo': {'frequency': 867700000, 'dr': 0}, 'adr': True, 'fCnt': 36, 'fPort': 2, 'data': 'ARVcaQWpAeAA', 'object': {'batteryVoltage': 3.4000000000000004, 'brokenSensor': False, 'childLock': False, 'highMotorConsumption': False, 'lowMotorConsumption': False, 'motorPosition': 5, 'motorRange': 425, 'openWindow': False, 'reason': 1, 'relativeHumidity': 41.015625, 'sensorTemperature': 19.296875, 'targetTemperature': 21}}
+Nov 08 09:36:31 zato-test python3[39483]: HOLA
+Nov 08 09:36:31 zato-test python3[39483]: [{'measurement': 'UEXCC_INF_P01_COM047_RAD_PO_007', 'tags': {'gatewayID': 'c0ee40ffff294108'}, 'fields': {'rssi': -93.0, 'loRaSNR': 10.2, 'batteryVoltage': 3.4000000000000004, 'brokenSensor': False, 'childLock': False, 'highMotorConsumption': False, 'lowMotorConsumption': False, 'motorPosition': 2.0, 'motorRange': 482.0, 'openWindow': False, 'reason': 1, 'relativeHumidity': 40.625, 'sensorTemperature': 19.296875, 'targetTemperature': 21.0}}]

@@ -1,0 +1,5 @@
+MATCH (f:Pueblo),(ro:ContratoAgua) 
+WHERE ro.id= "PRVCC_CASAR_CONT_6145540" AND f.id="PRVCC_CASAR"
+CREATE (f)-[r:HAS]->(ro)
+RETURN r;
+

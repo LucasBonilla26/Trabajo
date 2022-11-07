@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xbel version="1.0"
+      xmlns:bookmark="http://www.freedesktop.org/standards/desktop-bookmarks"
+      xmlns:mime="http://www.freedesktop.org/standards/shared-mime-info"
+>
+  <bookmark href="file:///root/scriptsdiputacion/TodosCups/listadocups.json" added="2022-02-08T08:50:18Z" modified="2022-02-08T08:50:18Z" visited="2022-02-08T08:50:18Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/json"/>
+        <bookmark:applications>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2022-02-08T08:50:18Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///root/scriptsdiputacion/HerramientaDiputacion/contadores/CONTADORESTODOS.py" added="2022-05-26T07:48:01Z" modified="2022-05-26T07:48:01Z" visited="2022-05-26T07:48:01Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/x-python"/>
+        <bookmark:applications>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2022-05-26T07:48:01Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///root/scriptsdiputacion/HerramientaDiputacion/contadores/probablemente_correctos.csv" added="2022-05-26T07:48:31Z" modified="2022-05-26T07:48:31Z" visited="2022-05-26T07:48:31Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/csv"/>
+        <bookmark:applications>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2022-05-26T07:48:31Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///root/scriptsdiputacion/HerramientaDiputacion/contadores/contadores_primer_trimestre.py" added="2022-05-26T07:50:39Z" modified="2022-05-26T07:50:39Z" visited="2022-05-26T07:50:40Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/x-python"/>
+        <bookmark:applications>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2022-05-26T07:50:39Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///root/scriptsdiputacion/HerramientaDiputacion/contadores/Contadores2021T1.csv" added="2022-05-26T07:51:20Z" modified="2022-05-26T07:51:20Z" visited="2022-05-26T07:51:21.020817Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/csv"/>
+        <bookmark:applications>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2022-05-26T07:51:20Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+</xbel>

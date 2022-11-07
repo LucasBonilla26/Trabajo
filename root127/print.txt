@@ -1,0 +1,1000 @@
+  999  ls
+ 1000  clear
+ 1001  python
+ 1002  clear
+ 1003  which python
+ 1004  ln ln -s /usr/bin/python3.6 python
+ 1005  ln ln -s /usr/bin/python3.6 /usr/bin/python
+ 1006  ln  -s /usr/bin/python3.6 /usr/bin/python
+ 1007  ln ln -s /usr/bin/python3.6 /usr/bin/python
+ 1008  ln -s /usr/bin/python3.6 /usr/bin/python
+ 1009  rm /usr/bin/python
+ 1010  ln -s /usr/bin/python3.6 /usr/bin/python
+ 1011  python
+ 1012  cd ..
+ 1013  za
+ 1014  zato stop server2/
+ 1015  zato start server2/
+ 1016  zato start server1/
+ 1017  ls
+ 1018  zato stop scheduler/
+ 1019  zato start scheduler/
+ 1020  cd server1/config/repo/
+ 1021  ls
+ 1022  exit
+ 1023  ping 158.49.112.122
+ 1024  sudo lsof -nP -iTCP -sTCP:LISTEN
+ 1025  sudo su zato
+ 1026  htop
+ 1027  ls
+ 1028  sudo ssh root@10.253.247.18
+ 1029  sudo ssh r0b0l4b@10.253.247.18
+ 1030  sudo su zato
+ 1031  exit
+ 1032  netstat -tulpn | grep LISTEN
+ 1033  git fetch
+ 1034  cd makers-covid/
+ 1035  git fetch
+ 1036  git pull
+ 1037  python test.py
+ 1038  ls
+ 1039  python test.py
+ 1040  git clone https://github.com/pbustos/makers-covid.git
+ 1041  python3
+ 1042  netstat -tulpn | grep LISTEN
+ 1043  cd makers-covid/
+ 1044  ls
+ 1045  python websockets.py
+ 1046  pip install flask
+ 1047  python websockets.py
+ 1048  pip install flask_socketio
+ 1049  python websockets.py
+ 1050  python test.py
+ 1051  pip install gspread
+ 1052  python test.py
+ 1053  pip install dictdiffer
+ 1054  python test.py
+ 1055  pip install unidecode
+ 1056  python test.py
+ 1057  pip install google
+ 1058  python test.py
+ 1059  pip install google.auth.transport.requests
+ 1060  pip install google-api-python-client
+ 1061  pip install google_auth_oauthlib
+ 1062  python test.py
+ 1063  pip install PyYAML
+ 1064  python test.py
+ 1065  pip install PyYAML
+ 1066  pip install -U PyYAML
+ 1067  python test.py
+ 1068  python3 test.py
+ 1069  cd
+ 1070  sudo su - zato
+ 1071  sudo ssh root@10.253.247.18
+ 1072  sudo ssh r0b0l4b@10.253.247.18
+ 1073  sudo ssh 158.49.247.154
+ 1074  exit() exit
+ 1075  exit
+ 1076  sudo ssh 158.49.247.154
+ 1077  exit
+ 1078  sudo su - zato
+ 1079  exit
+ 1080  screen
+ 1081  exit
+ 1082  ping 158.49.112.122
+ 1083  sudo ssh r0b0l4b@10.253.247.18
+ 1084  sudo ssh rootb@10.253.247.18
+ 1085  sudo ssh root@10.253.247.18
+ 1086  sudo ssh r0b0l4b@10.253.247.18
+ 1087  sudo ssh root@10.253.247.18
+ 1088  sudo ssh r0b0l4b@10.253.247.18
+ 1089  dfd
+ 1090  sudo ssh r0b0l4b@10.253.247.18
+ 1091  exit
+ 1092  ping 158.49.112.122
+ 1093  sudo ssh r0b0l4b@10.253.247.17
+ 1094  sudo ssh 158.49.247.154
+ 1095  ping 158.49.247.154
+ 1096  sudo ssh 158.49.247.154
+ 1097  ping smartpolitech.unex.es
+ 1098  sudo ssh 158.49.247.54
+ 1099  ping smartpolitech.unex.es
+ 1100  ping 158.49.112.54
+ 1101  sudo ssh 158.49.112.54
+ 1102  sudo ssh r0b0l4b@158.49.112.54
+ 1103  sudo ssh root@158.49.112.54
+ 1104  sudo ssh r0b0l4b@158.49.112.54
+ 1105  sudo ssh 158.49.112.54
+ 1106  sudo ssh r0b0l4b@10.253.247.18
+ 1107  sudo ssh r0b0l4b@10.253.247.18
+ 1108  ping 10.253.247.18
+ 1109  ping 10.253.247.17
+ 1110  sudo ssh r0b0l4b@10.253.247.17
+ 1111  sudo ssh root@158.49.112.122
+ 1112  sudo ssh 10.253.247.18
+ 1113  influx
+ 1114  sudo ssh 10.253.247.18
+ 1115  sudo ssh r0b0l4b@10.253.247.18
+ 1116  sudo ssh 10.253.247.18
+ 1117  sudo ssh r0b0l4b@10.253.247.18
+ 1118  sudo su - zato
+ 1119  ./reset.sh
+ 1120  sudo su - zato
+ 1121  ./reset.sh
+ 1122  sudo su - zato
+ 1123  reboot
+ 1124  sudo su - zato
+ 1125  ./reset.sh
+ 1126  sudo su - zato
+ 1127  nmap
+ 1128  netstat -lntu
+ 1129  sudo su - zato
+ 1130  ./reset.sh
+ 1131  sudo su - zato
+ 1132  ./reset.sh
+ 1133  sudo su - zato
+ 1134  ./reset.sh
+ 1135  sudo su - zato
+ 1136  ./reset.sh
+ 1137  reboot
+ 1138  ./reset.sh
+ 1139  sudo su - zato
+ 1140  ./reset.sh
+ 1141  sudo su - zato
+ 1142  ./reset.sh
+ 1143  exit
+ 1144  ls
+ 1145  cd
+ 1146  cd ..
+ 1147  ls
+ 1148  find zato
+ 1149  cd home/
+ 1150  ls
+ 1151  cd
+ 1152  ls
+ 1153  cat reset.sh
+ 1154  cd /opt/zato/env/SP2-0/
+ 1155  ls
+ 1156  cd server
+ 1157  cd server1/
+ 1158  ls
+ 1159  zato start
+ 1160  zato start server1
+ 1161  cd config/
+ 1162  ls
+ 1163  cd ..
+ 1164  zato start .
+ 1165  cd ..
+ 1166  cd server2
+ 1167  zato start .
+ 1168  cd ..
+ 1169  cd load-balancer/
+ 1170  zato start .
+ 1171  zato start . --verbose
+ 1172  zato stop .
+ 1173  ls
+ 1174  cp pidfile.OLD pidfile
+ 1175  zato stop .
+ 1176  ls
+ 1177  rm pidfile
+ 1178  ps -ef | grep -i zato
+ 1179  kill 9 17145
+ 1180  ps -ef | grep -i zato
+ 1181  zato start .
+ 1182  pkill -f zato
+ 1183  pkill -f gunicor
+ 1184  su - zato -c "cd /opt/zato/env/SP2-0/ && ./zato-qs-start.sh"&
+ 1185  pkill -f zato
+ 1186  ls
+ 1187  ls ..
+ 1188  zato start . & zato start ../scheduler/ & zato start ../web-admin/
+ 1189  zato start ../server1/ & zato start ../server2/
+ 1190  zato start .
+ 1191  zato stop .
+ 1192  ls
+ 1193  zato start .
+ 1194  pkill -f zat
+ 1195  ls
+ 1196  zato start ../web-admin/
+ 1197  zato start ../web-admin/&
+ 1198  pkill -f zato
+ 1199  zato start ../web-admin/&
+ 1200  l  
+ 1201  ls
+ 1202  zato start ../scheduler/&
+ 1203  zato start ../server
+ 1204  zato start ../server1 
+ 1205  zato start ../server2
+ 1206  zato start .
+ 1207  zato start ../server1 
+ 1208  cd /opt/zato/env/SP2-0/
+ 1209  zatop stop server1/
+ 1210  zato stop server1/
+ 1211  zato --help
+ 1212  zato start server1/
+ 1213  ls server1/
+ 1214  zato start server2/
+ 1215  ls server1/
+ 1216  rm server1/pidfile
+ 1217  rm server2/pidfile
+ 1218  ls
+ 1219  ./zato-qs-stop.sh 
+ 1220  ./zato-qs-start.sh 
+ 1221  zato start  web-admin/
+ 1222  sudo netstat -plnt
+ 1223  zato start server2/
+ 1224  sudo netstat -plnt
+ 1225  zato start server3/
+ 1226  cat zato-qs-start.sh 
+ 1227  pkill -f zato
+ 1228  ls
+ 1229  ps -xa | grep server
+ 1230  ps -xa | grep server1
+ 1231  ps -xa | grep zato
+ 1232  cat zato-qs-start.sh 
+ 1233  ./zato-qs-start.sh 
+ 1234  /opt/zato/env/SP2-0/zato-qs-start.sh 
+ 1235  pkill -f src/redis-server 
+ 1236  pkill -f zato
+ 1237  redis-stable/src/redis-server&
+ 1238  /opt/zato/env/SP2-0/zato-qs-start.sh 
+ 1239  gunicorn
+ 1240  ls
+ 1241  pkill -f zato
+ 1242  cd /opt/zato/env/SP2-0/
+ 1243  ls
+ 1244  cd load-balancer/
+ 1245  zato start . --fg
+ 1246  cd /opt/zato/env/SP2-0/
+ 1247  zato check-config server1/
+ 1248  zato check-config server2/
+ 1249  ls
+ 1250  ls ..
+ 1251  ls current/
+ 1252  ls
+ 1253  cd ..
+ 1254  ls
+ 1255  cd ..
+ 1256  ls
+ 1257  cd current
+ 1258  ls
+ 1259  cd ..
+ 1260  ls
+ 1261  cd env/
+ 1262  LS
+ 1263  ls
+ 1264  cd SP2-0/
+ 1265  ls
+ 1266  cd current/
+ 1267  ls
+ 1268  cd ..
+ 1269  ls
+ 1270  locate server-17010.sock
+ 1271  locate "server-17010.sock"
+ 1272  find server-17010.sock
+ 1273  find  . server-17010.sock
+ 1274  find  . "server-17010.sock"
+ 1275  find  /  "server-17010.sock" \ grep ".sock"
+ 1276  ls
+ 1277  cd server1/
+ 1278  ls
+ 1279  cd config/
+ 1280  ls
+ 1281  cd repo/
+ 1282  ls
+ 1283  find . zdaemon
+ 1284  find . *.sock
+ 1285  find . "*.sock"
+ 1286  find . ".sock"
+ 1287  cd ..
+ 1288  pkill -9 zato
+ 1289  which zato
+ 1290  cd ..
+ 1291  cat ../../current/bin/zato 
+ 1292  ls ../../current
+ 1293  cat  ../../current/zato-cli
+ 1294  cat  ../../current/zato-cli/src/zato/cli/start.py
+ 1295  zato
+ 1296  zato start --help
+ 1297  zato start --help --fg
+ 1298  zato start server1/ --fg
+ 1299  pkill -f gunicorn
+ 1300  zato start server1/ --fg
+ 1301  zato
+ 1302  zato quickstart 
+ 1303  zato service
+ 1304  zato update
+ 1305  zato cache
+ 1306  zato cache_get
+ 1307  zato sso
+ 1308  zato info
+ 1309  zato -version
+ 1310  zato --version
+ 1311  ./reset.sh
+ 1312  sudo su - zato
+ 1313  ./reset.sh
+ 1314  sudo su - zato
+ 1315  ls -latrh /tmp
+ 1316  ls
+ 1317  cd
+ 1318  cd .
+ 1319  cd tmp/
+ 1320  /tmp
+ 1321  cd
+ 1322  cd /tmp
+ 1323  ls
+ 1324  cat tmpTpIc6H-zato-start-server.txt
+ 1325  cat tmpzhhdAD-zato-start-server.txt
+ 1326  sudo su - zato
+ 1327  ls
+ 1328  cat tmpRl1ZtT-zato-start-server.txt
+ 1329  cat tmpQO7_6_-zato-start-scheduler.txt
+ 1330  cat tmpYNxf4I-zato-start-web-admin.txt
+ 1331  cd
+ 1332  sudo su - zato
+ 1333  df -h
+ 1334  ls
+ 1335  rm redis-5.0.5.tar.gz
+ 1336  ls
+ 1337  rm redis-5.0.5.tar.gz.1
+ 1338  df -h
+ 1339  rm influxdb_1.7.6_amd64.deb
+ 1340  ls
+ 1341  rm my_service3.py
+ 1342  rm my_service3.py.save
+ 1343  rm my_service3.py.save.1
+ 1344  rm data_file.json
+ 1345  cat randomdata.py
+ 1346  rm randomdata.py
+ 1347  rm DatosPeceraInflux.py
+ 1348  ls
+ 1349  df -h
+ 1350  influx
+ 1351  df -h
+ 1352  sudo su - zato
+ 1353  ./reset.sh
+ 1354  sudo su - zato
+ 1355  ./reset.sh
+ 1356  sudo su - zato
+ 1357  ./reset.sh
+ 1358  zato start server1/ --fg
+ 1359  ./restart.sh
+ 1360  ls
+ 1361  ./reset.sh
+ 1362  sudo su - zato
+ 1363  ./reset.sh
+ 1364  sudo su - zato
+ 1365  ./reset.sh
+ 1366  sudo su - zato
+ 1367  pkill -9 zato
+ 1368  sudo su - zato
+ 1369  cat reset.sh
+ 1370  nano reset.sh
+ 1371  ./reset.sh
+ 1372  sudo su - zato
+ 1373  ls
+ 1374  sudo su - zato
+ 1375  ping smartpolitech-services.unex.es
+ 1376  exit
+ 1377  sudo su - zato
+ 1378  history
+ 1379  sudo ssh r0b0l4b@10.253.247.17
+ 1380  df -h
+ 1381  history
+ 1382  ./reset.sh
+ 1383  sudo su - zato
+ 1384  sudo apt-get install apt-transport-https curl
+ 1385  sudo apt-get install software-properties-common
+ 1386  sudo add-apt-repository universe
+ 1387  sudo apt-get install tzdata
+ 1388  curl -s https://zato.io/repo/zato-3.1-C9B13DF28CFE3.xD.pgp.txt | sudo apt-key add -
+ 1389  sudo add-apt-repository    "deb [arch=amd64] https://zato.io/repo/stable/3.1/py3/ubuntu $(lsb_release -cs) main"
+ 1390  curl -s https://zato.io/repo/zato-3.1-C9B13DF28CFE3.xD.pgp.txt | sudo apt-key add -
+ 1391  curl --no-check-certificate -s https://zato.io/repo/zato-3.1-C9B13DF28CFE3.xD.pgp.txt | sudo apt-key add -
+ 1392  curl -fsSL --no-check-certificate https://zato.io/repo/zato-3.1-C9B13DF28CFE3.xD.pgp.txt | sudo apt-key add -
+ 1393  wget  https://zato.io/repo/zato-3.1-C9B13DF28CFE3.xD.pgp.txt | sudo apt-key add -
+ 1394  wget  https://zato.io/repo/zato-3.1-C9B13DF28CFE3.xD.pgp.txt 
+ 1395  history
+ 1396  wget  https://zato.io/repo/zato-3.1-C9B13DF28CFE3.xD.pgp.txt | sudo apt-key add -
+ 1397  docker image list
+ 1398  history | grep curl
+ 1399  history | grep docker
+ 1400  history | grep curl -s https://zato.io/
+ 1401  history | grep  https://zato.io/
+ 1402  history | more
+ 1403  curl -s https://zato.io/repo/zato-3.1-C9B13DF28CFE3.xD.pgp.txt | sudo apt-key add -
+ 1404  curl -s https://zato.io/repo/zato-3.1-C9B13DF28CFE3.xD.pgp.asc | sudo apt-key add -
+ 1405  curl -s https://zato.io/repo/zato-3.1-C9B13DF28CFE287D.pgp.txt | sudo apt-key add -
+ 1406  sudo add-apt-repository    "deb [arch=amd64] https://zato.io/repo/stable/3.1/py27/ubuntu $(lsb_release -cs) main"
+ 1407  sudo apt-get install zato
+ 1408  sudo add-apt-repository    "deb [arch=amd64] https://zato.io/repo/stable/3.1/py3/ubuntu $(lsb_release -cs) main"
+ 1409  sudo apt-get install zato
+ 1410  ./reset.sh
+ 1411  zato --version
+ 1412  sudo su - zato
+ 1413  ./reset.sh
+ 1414  sudo su - zato
+ 1415  sudo add-apt-repository    "deb [arch=amd64] https://zato.io/repo/stable/3.1/py3/ubuntu $(lsb_release -cs) main"
+ 1416  ls
+ 1417  sudo add-apt-repository --remove    "deb [arch=amd64] https://zato.io/repo/stable/3.1/py27/ubuntu $(lsb_release -cs) main"
+ 1418  sudo apt-get update
+ 1419  sudo apt-get install zato
+ 1420  sudo apt-get install ppa-purge
+ 1421  sudo ppa-purge    "deb [arch=amd64] https://zato.io/repo/stable/3.1/py27/ubuntu $(lsb_release -cs) main"
+ 1422  sudo ppa-purge    "deb [arch=amd64] https://zato.io/repo/stable/3.1/py3/ubuntu $(lsb_release -cs) main"
+ 1423  sudo apt-get install zato
+ 1424  sudo su - zato
+ 1425  reboot
+ 1426  ./reset.sh
+ 1427  cat reset.sh
+ 1428  nano reset.sh
+ 1429  ./reset.sh
+ 1430  sudo su - zato
+ 1431  sudo su - zato
+ 1432  sudo ls /etc/apt/sources.list.d
+ 1433  sudo ls /etc/apt/sources.list
+ 1434  cd /etc/apt/
+ 1435  ls
+ 1436  cat sources.list
+ 1437  ls
+ 1438  sudo su - zato
+ 1439  ls
+ 1440  cd
+ 1441  sudo su - zato
+ 1442  ls
+ 1443  dpkg --list
+ 1444  sudo apt-get remove zato
+ 1445  sudo apt-get install zato
+ 1446  sudo su - zato
+ 1447  ./reset.sh
+ 1448  sudo su - zato
+ 1449  nano reset.sh
+ 1450  ./reset.sh
+ 1451  sudo su - zato
+ 1452  nano reset.sh
+ 1453  ./reset.sh
+ 1454  sudo su - zato
+ 1455  ls
+ 1456  cd services
+ 1457  ls
+ 1458  cat map_box_Pruebas2.py
+ 1459  sudo su - zato
+ 1460  history
+ 1461  sudo ssh r0b0l4b@10.253.247.18
+ 1462  history
+ 1463  sudo ssh root@158.49.112.54
+ 1464  exit
+ 1465  git clone https://github.com/zatosource/zato-flask-integration.git
+ 1466  ls
+ 1467  cd zato-flask-integration/
+ 1468  ls
+ 1469  make
+ 1470  pip install virtualenv
+ 1471  make
+ 1472  ls
+ 1473  make
+ 1474  sudo apt-get install python-virtualenv
+ 1475  cd
+ 1476  sudo su - zato
+ 1477  $ apt-get install python3-sphinx
+ 1478  apt-get install python3-sphinx
+ 1479  sudo su - zato
+ 1480  ls
+ 1481  cd var
+ 1482  ls
+ 1483  sudo su - zato
+ 1484  sudo deluser zato sudo
+ 1485  sudo su - zato
+ 1486  history
+ 1487  sudo su - zato
+ 1488  cd /etc/
+ 1489  ls
+ 1490  cd sudoers.d/
+ 1491  ls
+ 1492  cat README
+ 1493  su
+ 1494  sudo su - zato
+ 1495  cd
+ 1496  history
+ 1497  apt-get install python3-sphinx
+ 1498  sudo su - zato
+ 1499  ping www.google.es
+ 1500  systemctl status telegraf
+ 1501  systemctl enable --now telegraf
+ 1502  ls
+ 1503  dpkg-reconfigure tzdata
+ 1504  mkdir downloads
+ 1505  ls
+ 1506  cd downloads
+ 1507  wget -qO- https://repos.influxdata.com/influxdb.key | sudo apt-key add -
+ 1508  source /etc/lsb-release
+ 1509  echo "deb https://repos.influxdata.com/${DISTRIB_ID,,} ${DISTRIB_CODENAME} stable" | sudo tee /etc/apt/sources.list.d/influxdb.list
+ 1510  sudo apt-get update && sudo apt-get install telegraf
+ 1511  sudo service telegraf start
+ 1512  telegraf config > telegraf.conf
+ 1513  dpkg-reconfigure tzdata
+ 1514  vi /etc/telegraf/telegraf.conf
+ 1515  history
+ 1516  sudo ssh r0b0l4b@10.253.247.18
+ 1517  exit
+ 1518  history
+ 1519  sudo ssh r0b0l4b@10.253.247.18
+ 1520  nano /etc/telegraf/telegraf.conf
+ 1521  sudo ssh r0b0l4b@10.253.247.18
+ 1522  nano /etc/telegraf/telegraf.conf
+ 1523  sudo ssh r0b0l4b@10.253.247.18
+ 1524  history
+ 1525  ls
+ 1526  cd downloads
+ 1527  ls
+ 1528  nano /etc/telegraf/telegraf.conf
+ 1529  history
+ 1530  sudo ssh r0b0l4b@10.253.247.18
+ 1531  nano /etc/telegraf/telegraf.conf
+ 1532  sudo ssh r0b0l4b@10.253.247.18
+ 1533  nano /etc/telegraf/telegraf.conf
+ 1534  nano /etc/default/telegraf
+ 1535  cd /etc/default/telegraf
+ 1536  cd /etc/telegraf
+ 1537  ls
+ 1538  nano telegraf.conf
+ 1539  history
+ 1540  systemctl telegraf status
+ 1541  systemctl status telegraf
+ 1542  systemctl stop telegraf
+ 1543  systemctl status telegraf
+ 1544  systemctl start telegraf
+ 1545  systemctl status telegraf
+ 1546  influx
+ 1547  sudo ssh r0b0l4b@10.253.247.18
+ 1548  ls
+ 1549  cd services
+ 1550  ls
+ 1551  scp -r /services sergio@192.168.1.44:~
+ 1552  scp -r /services sergio@192.168.1.44:~ --verbose
+ 1553  scp -r /services sergio@192.168.1.44:~ --verbos
+ 1554  scp -r /services sergio@192.168.1.44:
+ 1555  scp -r /services sergio@192.168.1.44:~/descargas
+ 1556  scp -r /services sergio@192.168.1.44:~/Descargas
+ 1557  scp -r /services sergio@192.168.1.34:~/Descargas
+ 1558  scp -v -r /services sergio@192.168.1.34:~/Descargas
+ 1559  scp -v -P 80 -r /services sergio@192.168.1.34:~/Descargas
+ 1560  scp -v -P 1080 -r /services sergio@192.168.1.34:~/Descargas
+ 1561  scp -v -P 1080 -r /services 192.168.1.34:~/Descargas
+ 1562  scp -v -P 1080 -r /services sergio-GF63-Thin-9SC@192.168.1.34:~/Descargas
+ 1563  ping 192.168.1.34
+ 1564  ping 172.17.0.1
+ 1565  ping 158.49.112.127
+ 1566  scp -v -P 1080 -r /services sergio-GF63-Thin-9SC@158.49.112.127:~/Descargas
+ 1567  scp -v -r /services sergio@158.49.112.127:~/Descargas
+ 1568  scp -v -r /services sergio@83.35.147.170:~/Descargas
+ 1569  ping 83.35.147.170
+ 1570  scp -v -r /services sergio@83.35.147.170:~/Descargas
+ 1571  scp -v -P 1080 -r /services sergio@83.35.147.170:~/Descargas
+ 1572  sudo ssh 83.35.147.170
+ 1573  ssh -C -D 1080 root@158.49.112.122
+ 1574  ssh -C -D 1080 root@83.35.147.170
+ 1575  ssh -C -D -V 1080 root@83.35.147.170
+ 1576  ssh -C -D -v 1080 root@83.35.147.170
+ 1577  help ssh
+ 1578  info ssh
+ 1579  ssh -C -D -v 1080 root@83.35.147.170
+ 1580  ssh -C -D 1080 root@83.35.147.170
+ 1581  exit
+ 1582  ls
+ 1583  cd services/
+ 1584  ls
+ 1585  cat avisos
+ 1586  cat avisos.py
+ 1587  sudo ssh r0b0l4b@10.253.247.18
+ 1588  history
+ 1589  sudo su - zato
+ 1590  sudo ssh r0b0l4b@10.253.247.18
+ 1591  sudo su - zato
+ 1592  ping 10.253.247.119
+ 1593  exit
+ 1594  sudo su - zato
+ 1595  exit
+ 1596  python3 main2.py
+ 1597  ls
+ 1598  python3 main2.py
+ 1599  python main2.py
+ 1600  python
+ 1601  python3 main2.py
+ 1602  ls
+ 1603  cd bash
+ 1604  ls
+ 1605  cd ..
+ 1606  cd venv
+ 1607  ls
+ 1608  cd include
+ 1609  ls
+ 1610  cd ..
+ 1611  cd bin
+ 1612  ls
+ 1613  easy_install
+ 1614  nano easy_install-3.8
+ 1615  exit
+ 1616  ls
+ 1617  cd
+ 1618  ls
+ 1619  cd api_influxdb
+ 1620  ls
+ 1621  screen
+ 1622  exit
+ 1623  sudo ssh r0b0l4b@10.253.247.18
+ 1624  influx
+ 1625  sudo ssh r0b0l4b@10.253.247.18
+ 1626  influx
+ 1627  sudo ssh r0b0l4b@10.253.247.18
+ 1628  sudo ssh r0b0l4b@10.253.247.18ç
+ 1629  sudo ssh r0b0l4b@10.253.247.18
+ 1630  sudo ssh rootb@10.253.247.64
+ 1631  sudo ssh r0b0l4b@10.253.247.64
+ 1632  sudo ssh 10.253.247.64
+ 1633  sudo ssh r0b0l4b@10.253.247.64
+ 1634  sudo ssh r0b0l4b@10.253.247.18
+ 1635  sudo ssh r0b0l4b@10.253.247.64
+ 1636  sudo ssh root@10.253.247.64
+ 1637  ping 10.253.247.64
+ 1638  sudo ssh root@10.253.247.64
+ 1639  exit
+ 1640  sudo ssh root@10.253.247.196
+ 1641  sudo ssh r0b0l4b@10.253.247.18
+ 1642  influx
+ 1643  sudo ssh r0b0l4b@10.253.247.18
+ 1644  sudo ssh root@10.253.247.196
+ 1645  ls
+ 1646  ls services/
+ 1647  ls
+ 1648  ls ../
+ 1649  cat reset.sh
+ 1650  zato i
+ 1651  sudo ssh root@10.253.247.196
+ 1652  ls
+ 1653  sudo ssh r0b0l4b@10.253.247.18
+ 1654  ls
+ 1655  influx
+ 1656  ls
+ 1657  netstat -lptn
+ 1658  exit
+ 1659  uname 
+ 1660  lsb_release 
+ 1661  uname -a
+ 1662  uname -or
+ 1663  cat /etc/*release
+ 1664  ifconfig 
+ 1665  nmap 10.253.247.18
+ 1666  ls
+ 1667  pip install pymongo
+ 1668  python
+ 1669  nmap 158.49.112.154
+ 1670  python
+ 1671  pip install pyjwt
+ 1672  pip install wekzug
+ 1673  pip install werkzug
+ 1674  pip install werkzeug
+ 1675  ls
+ 1676  cat reset.sh
+ 1677  cat /opt/zato/env/NewSP/zato-qs-start.sh 
+ 1678  ls /opt/zato/env/NewSP/web-admin/logs/
+ 1679  cat /opt/zato/env/NewSP/web-admin/logs/admin.log
+ 1680  cat /opt/zato/env/NewSP/web-admin/logs/*
+ 1681  cat /opt/zato/env/NewSP/web-admin/logs/*.log
+ 1682  ls
+ 1683  /opt/zato/env/
+ 1684  cd /opt/zato/env/
+ 1685  ls
+ 1686  cd NewSP/
+ 1687  ls
+ 1688  ls server1/logs/admin.log
+ 1689  tail ls server1/logs/admin.log
+ 1690  tail server1/logs/admin.log
+ 1691  ls
+ 1692  rm server1/work/hot-deploy/current/loginEcoGram.py 
+ 1693  rm server1/work/hot-deploy/current/LoginEcoGram.py 
+ 1694  ls server1/work/hot-deploy/current/
+ 1695  ls server2/work/hot-deploy/current/
+ 1696  cd ..
+ 1697  ls
+ 1698  ./current/bin/pip install pymongo pyjwt werkzeug
+ 1699  ./current/bin/pip install uuid
+ 1700  ls
+ 1701  zato
+ 1702  zato --help
+ 1703  tail server1/logs/admin.log
+ 1704  ls
+ 1705  ./current/bin/zato 
+ 1706  /opt/zato/env/NewSP/server1/logs/adnan
+ 1707  nano /opt/zato/3.1.0/code/zato-cli/src/zato/cli/apispec.py
+ 1708  zato
+ 1709  zato -h
+ 1710  zato info
+ 1711  zato | grep log
+ 1712  zato service
+ 1713  zato info 
+ 1714  zato info env/NewSP/server1/
+ 1715  zato info env/NewSP/server2/
+ 1716  zato update 
+ 1717  zato update env/NewSP/server2/
+ 1718  ls env/NewSP/web-admin/logs/
+ 1719  cd env/NewSP/web-admin/logs/
+ 1720  ls
+ 1721  tail server.lo
+ 1722  tail server.log
+ 1723  less server.log
+ 1724  cd ..
+ 1725  cd ../server1/logs/
+ 1726  ls
+ 1727  less admin.log
+ 1728  less server.log
+ 1729  python
+ 1730  less server.log
+ 1731  less /opt/zato/env/NewSP/server1/logs/server.log
+ 1732  nano /opt/zato/3.1.0/code/zato-server/src/zato/server/service/internal/hot_deploy/__init__.py
+ 1733  less /opt/zato/env/NewSP/server1/logs/server.log
+ 1734  nano /opt/zato/3.1.0/code/zato-server/src/zato/server/service/internal/hot_deploy/__init__.py
+ 1735  python
+ 1736  export PYTHONIOENCODING=utf-8
+ 1737  python
+ 1738  nano ~/.bashrc 
+ 1739  source ~/.bashrc 
+ 1740  nano /opt/zato/3.1.0/code/zato-server/src/zato/server/service/internal/hot_deploy/__init__.py
+ 1741  less /opt/zato/env/NewSP/server1/logs/server.log
+ 1742  zato
+ 1743  zato component-version 
+ 1744  less /opt/zato/env/NewSP/server1/logs/server.log
+ 1745  python
+ 1746  zato restart
+ 1747  less /opt/zato/env/NewSP/server1/logs/server.log
+ 1748  ls /opt/zato/env/NewSP/server1/
+ 1749  less /opt/zato/env/NewSP/server1/logs/server.log
+ 1750  less /opt/zato/env/NewSP/server2/logs/server.log
+ 1751  zato stop /opt/zato/env/NewSP/server1/
+ 1752  zato start /opt/zato/env/NewSP/server1/
+ 1753  less /opt/zato/env/NewSP/server1/logs/server.log
+ 1754  ls /opt/zato/current/bin/
+ 1755  nano /opt/zato/current/bin/activate
+ 1756  less /opt/zato/env/NewSP/server1/logs/server.log
+ 1757  nano /opt/zato/3.1.0/code/zato-server/src/zato/server/service/internal/hot_deploy/__init__.py
+ 1758  less /opt/zato/env/NewSP/server1/logs/server.log
+ 1759  nano /opt/zato/3.1.0/code/zato-server/src/zato/server/service/internal/hot_deploy/__init__.py
+ 1760  python
+ 1761  less /opt/zato/env/NewSP/server1/logs/server.log
+ 1762  python
+ 1763  less /opt/zato/env/NewSP/server1/logs/server.log
+ 1764  nano /opt/zato/3.1.0/code/zato-server/src/zato/server/service/internal/hot_deploy/__init__.py
+ 1765  less /opt/zato/env/NewSP/server1/logs/server.log
+ 1766  nano /opt/zato/3.1.0/code/zato-server/src/zato/server/service/internal/hot_deploy/__init__.py
+ 1767  ls
+ 1768  ls downloads/
+ 1769  python
+ 1770  echo $LANG
+ 1771  locale charmap
+ 1772  echo $LC_CTYPE
+ 1773  locale -a
+ 1774  locale -m
+ 1775  python -c "import sys; print(sys.stdout.encoding)"
+ 1776  locale
+ 1777  locale -a
+ 1778  sudo lacalectl set-locale LANG=C.UTF-8
+ 1779  sudo localectl set-locale LANG=C.UTF-8
+ 1780  locale
+ 1781  update-locale LANG=LANG=C.UTF-8 LANGUAGE
+ 1782  update-locale LANG=C.UTF-8 LANGUAGE
+ 1783  check-language-support -l es
+ 1784  sudo apt install $(check-language-support es)
+ 1785  locale -k charmap
+ 1786  sudo dpkg-reconfigure locales
+ 1787  sudo update-locale LANG=es_ES.UTF-8
+ 1788  sudo update-locale LANG=es.UTF-8
+ 1789  sudo update-locale LANG=C.UTF-8
+ 1790  locale -k charmap
+ 1791  locale 
+ 1792  which locale
+ 1793  nano /etc/default/locale 
+ 1794  nano ~/.bashrc 
+ 1795  source ~/.bashrc 
+ 1796  exit
+ 1797  zato stop /opt/zato/env/NewSP/server1/
+ 1798  zato start /opt/zato/env/NewSP/server1/
+ 1799  zato stop /opt/zato/env/NewSP/server1/
+ 1800  zato start /opt/zato/env/NewSP/server1/
+ 1801  zato stop /opt/zato/env/NewSP/server1/
+ 1802  zato start /opt/zato/env/NewSP/server2/
+ 1803  ssh-keygen -t rsa -b 2048
+ 1804  ssh-copy-id r0b0l4b@10.253.247.18
+ 1805  exit
+ 1806  influx
+ 1807  exit
+ 1808  ssh r0b0l4b@10.253.247.18
+ 1809  ls
+ 1810  ssh r0b0l4b@10.253.247.18
+ 1811  ping 10.253.247.18
+ 1812  ssh root@10.253.247.18
+ 1813  ssh 10.253.247.18
+ 1814  ssh r0b0l4b@10.253.247.18
+ 1815  ssh root@10.253.247.18
+ 1816  ssh r0b0l4b@10.253.247.18
+ 1817  influx
+ 1818  ssh root@10.253.247.18
+ 1819  ssh r0b0l4b@10.253.247.18
+ 1820  ssh r0b0l4b@10.253.247.18
+ 1821  influx
+ 1822  exit
+ 1823  ifconfig
+ 1824  sudo ssh -f -N -D 1080 root@158.49.112.127
+ 1825  exit
+ 1826  influx
+ 1827  influcx
+ 1828  influx
+ 1829  less /opt/zato/env/NewSP/server1/logs/server.log
+ 1830  zato stop /opt/zato/env/NewSP/server1/
+ 1831  zato stop /opt/zato/env/NewSP/server1/s
+ 1832  zato start /opt/zato/env/NewSP/server1/
+ 1833  zato stop /opt/zato/env/NewSP/server1/
+ 1834  zato start /opt/zato/env/NewSP/server1/
+ 1835  zato stop /opt/zato/env/NewSP/server2/
+ 1836  zato start /opt/zato/env/NewSP/server2/
+ 1837  sudo su - zato
+ 1838  ssh r0b0l4b@10.253.247.18
+ 1839  exit
+ 1840  mosquitto
+ 1841  ssh r0b0l4b@10.253.247.18
+ 1842  history
+ 1843  http://158.49.112.127/http://158.49.112.127/http://158.49.112.127/sudo apt install mosquitto mosquitto-clients redis-server redis-tools postgresql 
+ 1844  sudo apt install mosquitto mosquitto-clients redis-server redis-tools postgresql 
+ 1845  sudo -u postgres psql
+ 1846  sudo apt install apt-transport-https dirmngr
+ 1847  sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys 1CE2AFD36DBCCA00
+ 1848  sudo echo "deb https://artifacts.chirpstack.io/packages/3.x/deb stable main" | sudo tee /etc/apt/sources.list.d/chirpstack.list
+ 1849  sudo apt update
+ 1850  sudo apt install chirpstack-gateway-bridge
+ 1851  sudo systemctl start chirpstack-gateway-bridge
+ 1852  sudo systemctl enable chirpstack-gateway-bridge
+ 1853  sudo apt install chirpstack-network-server
+ 1854  gedit /etc/chirpstack-network-server/chirpstack-network-server.toml
+ 1855  nano /etc/chirpstack-network-server/chirpstack-network-server.toml
+ 1856  sudo systemctl start chirpstack-network-server
+ 1857  sudo systemctl enable chirpstack-network-server
+ 1858  sudo journalctl -f -n 100 -u chirpstack-network-server
+ 1859  nano /etc/chirpstack-network-server/chirpstack-network-server.toml
+ 1860  sudo systemctl restart chirpstack-network-server
+ 1861  sudo systemctl start chirpstack-network-server
+ 1862  sudo systemctl enable chirpstack-network-server
+ 1863  sudo journalctl -f -n 100 -u chirpstack-network-server
+ 1864  sudo apt install chirpstack-application-server
+ 1865  nano /etc/chirpstack-application-server/chirpstack-application-server.toml
+ 1866  nano /etc/chirpstack-network-server/chirpstack-network-server.toml
+ 1867  sudo systemctl start chirpstack-application-server
+ 1868  sudo systemctl enable chirpstack-application-server
+ 1869  sudo journalctl -f -n 100 -u chirpstack-application-server
+ 1870  sudo systemctl stop chirpstack-application-server
+ 1871  sudo journalctl -f -n 100 -u chirpstack-application-server
+ 1872  sudo systemctl start chirpstack-application-server
+ 1873  sudo systemctl enable chirpstack-application-server
+ 1874  sudo journalctl -f -n 100 -u chirpstack-application-server
+ 1875  sudo apt install chirpstack-gateway-bridge
+ 1876  sudo systemctl start chirpstack-gateway-bridge
+ 1877  sudo systemctl enable chirpstack-gateway-bridge
+ 1878  sudo systemctl start chirpstack-network-server
+ 1879  sudo systemctl enable chirpstack-network-server
+ 1880  sudo journalctl -f -n 100 -u chirpstack-network-server
+ 1881  exit()
+ 1882  ping smartpolitech.unex.es
+ 1883  sudo ssh 158.49.112.54
+ 1884  influx
+ 1885  sudo ssh 158.49.112.54
+ 1886  ls
+ 1887  influx
+ 1888  cd scriptsdiputacion/
+ 1889  ls
+ 1890  nano startbot.py
+ 1891  python3 startbot.py 
+ 1892  pip3 install colored
+ 1893  python3 startbot.py 
+ 1894  pip3 install telepot
+ 1895  python3 startbot.py 
+ 1896  pip3 install emoji
+ 1897  python3 startbot.py 
+ 1898  pip3 install xlrd
+ 1899  python3 startbot.py 
+ 1900  pip3 install pandas
+ 1901  python3 startbot.py 
+ 1902  pip3 install openpyxl
+ 1903  python3 startbot.py 
+ 1904  ls
+ 1905  rm startbot.py 
+ 1906  cd aguas_casar_bot/
+ 1907  python3 start_bot.py 
+ 1908  ls
+ 1909  mkdir scriptsdiputacion
+ 1910  ls scriptsdiputacion/
+ 1911  nano pantanos.py
+ 1912  ls
+ 1913  mv pantanos.py scriptsdiputacion/
+ 1914  ls
+ 1915  cd scriptsdiputacion/
+ 1916  ls
+ 1917  python3
+ 1918  sudo systemctl status cron
+ 1919  sudo apt update
+ 1920  sudo apt install cron
+ 1921  python3
+ 1922  00 12 * * * python3 pantanos.py 
+ 1923  crontab -e
+ 1924  python3 ~/scriptsdiputacion/pantanos.py 
+ 1925  pip3 install influxdb
+ 1926  python3 ~/scriptsdiputacion/pantanos.py 
+ 1927  screen
+ 1928  screen
+ 1929  influx
+ 1930  ping 158.49.112.122
+ 1931  ls
+ 1932  cd scriptsdiputacion/
+ 1933  nano pruebaneo.py
+ 1934  pip3 install neo4j
+ 1935  sudo pip3 install neo4j
+ 1936  python3 pruebaneo.py 
+ 1937  pip3 install neo4j.driver
+ 1938  python3 pruebaneo.py 
+ 1939  nano pruebaneo.py 
+ 1940  python3 pruebaneo.py 
+ 1941  nano pruebaneo.py 
+ 1942  python3 pruebaneo.py 
+ 1943  nano pruebaneo.py 
+ 1944  python3 pruebaneo.py 
+ 1945  nano pruebaneo.py 
+ 1946  python3 pruebaneo.py 
+ 1947  nano pruebaneo.py 
+ 1948  python3 pruebaneo.py 
+ 1949  nano pruebaneo.py 
+ 1950  python3 pruebaneo.py 
+ 1951  nano pruebaneo2.py
+ 1952  nano pruebaneo.py 
+ 1953  nano pruebaneo2.py
+ 1954  python3 pruebaneo2.py
+ 1955  nano pruebaneo.py 
+ 1956  nano pruebaneo2.py
+ 1957  python3 pruebaneo2.py
+ 1958  nano pruebaneo.py 
+ 1959  nano contratoneo.py
+ 1960  python3 contratoneo.py
+ 1961  nano contratoneo.py
+ 1962  python3 contratoneo.py
+ 1963  nano contratoneo.py
+ 1964  python3 contratoneo.py
+ 1965  influx
+ 1966  ls
+ 1967  cd scriptsdiputacion/
+ 1968  ls
+ 1969  crontab
+ 1970  nano pantanoguijo.py 
+ 1971  history
+ 1972  crontab -e
+ 1973  history
+ 1974  sudo ssh 158.49.112.54
+ 1975  chronograf
+ 1976  ssh -C -D 1081 r0b0l4b@10.253.247.18
+ 1977  exit
+ 1978  ls /opt/zato/
+ 1979  find /opt/zato/ | grep -i mapbox
+ 1980  sudo su - zato
+ 1981  ls
+ 1982  cd services/
+ 1983  ls
+ 1984  cd ..
+ 1985  ls
+ 1986  history
+ 1987  sudo su - zato
+ 1988  exit
+ 1989  updatedb
+ 1990  locate influx
+ 1991  influxd backup -portable /tmp/backup
+ 1992  cd /tmp/backup/
+ 1993  cd ..
+ 1994  ls
+ 1995  ls backup/
+ 1996  sudo ssh 158.49.112.122
+ 1997  history
+ 1998  history > print.txt

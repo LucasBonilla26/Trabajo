@@ -1,0 +1,338 @@
+[
+    {
+        "cups": "ES0102050222498201JE0F",
+        "date": "2020/01/01",
+        "time": "01:00",
+        "consumptionKWh": 11.01,
+        "obtainMethod": "Real"
+    },
+    {
+        "cups": "ES0102050222498201JE0F",
+        "date": "2020/01/01",
+        "time": "02:00",
+        "consumptionKWh": 10.587,
+        "obtainMethod": "Real"
+    },
+    {
+        "cups": "ES0102050222498201JE0F",
+        "date": "2020/01/01",
+        "time": "03:00",
+        "consumptionKWh": 10.701,
+        "obtainMethod": "Real"
+    },
+    {
+        "cups": "ES0102050222498201JE0F",
+        "date": "2020/01/01",
+        "time": "04:00",
+        "consumptionKWh": 10.648,
+        "obtainMethod": "Real"
+    },
+    {
+        "cups": "ES0102050222498201JE0F",
+        "date": "2020/01/01",
+        "time": "05:00",
+        "consumptionKWh": 10.651,
+        "obtainMethod": "Real"
+    },
+    {
+        "cups": "ES0102050222498201JE0F",
+        "date": "2020/01/01",
+        "time": "06:00",
+        "consumptionKWh": 10.62,
+        "obtainMethod": "Real"
+    },
+    {
+        "cups": "ES0102050222498201JE0F",
+        "date": "2020/01/01",
+        "time": "07:00",
+        "consumptionKWh": 11.542,
+        "obtainMethod": "Real"
+    },
+    {
+        "cups": "ES0102050222498201JE0F",
+        "date": "2020/01/01",
+        "time": "08:00",
+        "consumptionKWh": 11.928,
+        "obtainMethod": "Real"
+    },
+    {
+        "cups": "ES0102050222498201JE0F",
+        "date": "2020/01/01",
+        "time": "09:00",
+        "consumptionKWh": 6.952,
+        "obtainMethod": "Real"
+    },
+    {
+        "cups": "ES0102050222498201JE0F",
+        "date": "2020/01/01",
+        "time": "10:00",
+        "consumptionKWh": 0.0,
+        "obtainMethod": "Real"
+    },
+    {
+        "cups": "ES0102050222498201JE0F",
+        "date": "2020/01/01",
+        "time": "11:00",
+        "consumptionKWh": 0.0,
+        "obtainMethod": "Real"
+    },
+    {
+        "cups": "ES0102050222498201JE0F",
+        "date": "2020/01/01",
+        "time": "12:00",
+        "consumptionKWh": 0.0,
+        "obtainMethod": "Real"
+    },
+    {
+        "cups": "ES0102050222498201JE0F",
+        "date": "2020/01/01",
+        "time": "13:00",
+        "consumptionKWh": 0.0,
+        "obtainMethod": "Real"
+    },
+    {
+        "cups": "ES0102050222498201JE0F",
+        "date": "2020/01/01",
+        "time": "14:00",
+        "consumptionKWh": 0.0,
+        "obtainMethod": "Real"
+    },
+    {
+        "cups": "ES0102050222498201JE0F",
+        "date": "2020/01/01",
+        "time": "15:00",
+        "consumptionKWh": 0.0,
+        "obtainMethod": "Real"
+    },
+    {
+        "cups": "ES0102050222498201JE0F",
+        "date": "2020/01/01",
+        "time": "16:00",
+        "consumptionKWh": 0.0,
+        "obtainMethod": "Real"
+    },
+    {
+        "cups": "ES0102050222498201JE0F",
+        "date": "2020/01/01",
+        "time": "17:00",
+        "consumptionKWh": 0.0,
+        "obtainMethod": "Real"
+    },
+    {
+        "cups": "ES0102050222498201JE0F",
+        "date": "2020/01/01",
+        "time": "18:00",
+        "consumptionKWh": 0.0,
+        "obtainMethod": "Real"
+    },
+    {
+        "cups": "ES0102050222498201JE0F",
+        "date": "2020/01/01",
+        "time": "19:00",
+        "consumptionKWh": 6.952,
+        "obtainMethod": "Real"
+    },
+    {
+        "cups": "ES0102050222498201JE0F",
+        "date": "2020/01/01",
+        "time": "20:00",
+        "consumptionKWh": 12.438,
+        "obtainMethod": "Real"
+    },
+    {
+        "cups": "ES0102050222498201JE0F",
+        "date": "2020/01/01",
+        "time": "21:00",
+        "consumptionKWh": 12.205,
+        "obtainMethod": "Real"
+    },
+    {
+        "cups": "ES0102050222498201JE0F",
+        "date": "2020/01/01",
+        "time": "22:00",
+        "consumptionKWh": 12.239,
+        "obtainMethod": "Real"
+    },
+    {
+        "cups": "ES0102050222498201JE0F",
+        "date": "2020/01/01",
+        "time": "23:00",
+        "consumptionKWh": 12.242,
+        "obtainMethod": "Real"
+    },
+    {
+        "cups": "ES0102050222498201JE0F",
+        "date": "2020/01/01",
+        "time": "24:00",
+        "consumptionKWh": 12.046,
+        "obtainMethod": "Real"
+    },
+    {
+        "cups": "ES0102050222498201JE0F",
+        "date": "2020/01/02",
+        "time": "01:00",
+        "consumptionKWh": 10.99,
+        "obtainMethod": "Real"
+    },
+    {
+        "cups": "ES0102050222498201JE0F",
+        "date": "2020/01/02",
+        "time": "02:00",
+        "consumptionKWh": 10.686,
+        "obtainMethod": "Real"
+    },
+    {
+        "cups": "ES0102050222498201JE0F",
+        "date": "2020/01/02",
+        "time": "03:00",
+        "consumptionKWh": 10.692,
+        "obtainMethod": "Real"
+    },
+    {
+        "cups": "ES0102050222498201JE0F",
+        "date": "2020/01/02",
+        "time": "04:00",
+        "consumptionKWh": 10.538,
+        "obtainMethod": "Real"
+    },
+    {
+        "cups": "ES0102050222498201JE0F",
+        "date": "2020/01/02",
+        "time": "05:00",
+        "consumptionKWh": 10.571,
+        "obtainMethod": "Real"
+    },
+    {
+        "cups": "ES0102050222498201JE0F",
+        "date": "2020/01/02",
+        "time": "06:00",
+        "consumptionKWh": 10.486,
+        "obtainMethod": "Real"
+    },
+    {
+        "cups": "ES0102050222498201JE0F",
+        "date": "2020/01/02",
+        "time": "07:00",
+        "consumptionKWh": 11.439,
+        "obtainMethod": "Real"
+    },
+    {
+        "cups": "ES0102050222498201JE0F",
+        "date": "2020/01/02",
+        "time": "08:00",
+        "consumptionKWh": 11.704,
+        "obtainMethod": "Real"
+    },
+    {
+        "cups": "ES0102050222498201JE0F",
+        "date": "2020/01/02",
+        "time": "09:00",
+        "consumptionKWh": 7.481,
+        "obtainMethod": "Real"
+    },
+    {
+        "cups": "ES0102050222498201JE0F",
+        "date": "2020/01/02",
+        "time": "10:00",
+        "consumptionKWh": 0.0,
+        "obtainMethod": "Real"
+    },
+    {
+        "cups": "ES0102050222498201JE0F",
+        "date": "2020/01/02",
+        "time": "11:00",
+        "consumptionKWh": 0.0,
+        "obtainMethod": "Real"
+    },
+    {
+        "cups": "ES0102050222498201JE0F",
+        "date": "2020/01/02",
+        "time": "12:00",
+        "consumptionKWh": 0.0,
+        "obtainMethod": "Real"
+    },
+    {
+        "cups": "ES0102050222498201JE0F",
+        "date": "2020/01/02",
+        "time": "13:00",
+        "consumptionKWh": 0.0,
+        "obtainMethod": "Real"
+    },
+    {
+        "cups": "ES0102050222498201JE0F",
+        "date": "2020/01/02",
+        "time": "14:00",
+        "consumptionKWh": 0.0,
+        "obtainMethod": "Real"
+    },
+    {
+        "cups": "ES0102050222498201JE0F",
+        "date": "2020/01/02",
+        "time": "15:00",
+        "consumptionKWh": 0.0,
+        "obtainMethod": "Real"
+    },
+    {
+        "cups": "ES0102050222498201JE0F",
+        "date": "2020/01/02",
+        "time": "16:00",
+        "consumptionKWh": 0.0,
+        "obtainMethod": "Real"
+    },
+    {
+        "cups": "ES0102050222498201JE0F",
+        "date": "2020/01/02",
+        "time": "17:00",
+        "consumptionKWh": 0.0,
+        "obtainMethod": "Real"
+    },
+    {
+        "cups": "ES0102050222498201JE0F",
+        "date": "2020/01/02",
+        "time": "18:00",
+        "consumptionKWh": 0.0,
+        "obtainMethod": "Real"
+    },
+    {
+        "cups": "ES0102050222498201JE0F",
+        "date": "2020/01/02",
+        "time": "19:00",
+        "consumptionKWh": 6.711,
+        "obtainMethod": "Real"
+    },
+    {
+        "cups": "ES0102050222498201JE0F",
+        "date": "2020/01/02",
+        "time": "20:00",
+        "consumptionKWh": 12.367,
+        "obtainMethod": "Real"
+    },
+    {
+        "cups": "ES0102050222498201JE0F",
+        "date": "2020/01/02",
+        "time": "21:00",
+        "consumptionKWh": 12.168,
+        "obtainMethod": "Real"
+    },
+    {
+        "cups": "ES0102050222498201JE0F",
+        "date": "2020/01/02",
+        "time": "22:00",
+        "consumptionKWh": 12.154,
+        "obtainMethod": "Real"
+    },
+    {
+        "cups": "ES0102050222498201JE0F",
+        "date": "2020/01/02",
+        "time": "23:00",
+        "consumptionKWh": 12.032,
+        "obtainMethod": "Real"
+    },
+    {
+        "cups": "ES0102050222498201JE0F",
+        "date": "2020/01/02",
+        "time": "24:00",
+        "consumptionKWh": 12.002,
+        "obtainMethod": "Real"
+    }
+]

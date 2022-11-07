@@ -1,0 +1,338 @@
+[
+    {
+        "cups": "ES0102050220380202LR0F",
+        "date": "2020/01/01",
+        "time": "01:00",
+        "consumptionKWh": 0.747,
+        "obtainMethod": "Estimada"
+    },
+    {
+        "cups": "ES0102050220380202LR0F",
+        "date": "2020/01/01",
+        "time": "02:00",
+        "consumptionKWh": 0.624,
+        "obtainMethod": "Estimada"
+    },
+    {
+        "cups": "ES0102050220380202LR0F",
+        "date": "2020/01/01",
+        "time": "03:00",
+        "consumptionKWh": 0.528,
+        "obtainMethod": "Estimada"
+    },
+    {
+        "cups": "ES0102050220380202LR0F",
+        "date": "2020/01/01",
+        "time": "04:00",
+        "consumptionKWh": 0.466,
+        "obtainMethod": "Estimada"
+    },
+    {
+        "cups": "ES0102050220380202LR0F",
+        "date": "2020/01/01",
+        "time": "05:00",
+        "consumptionKWh": 0.433,
+        "obtainMethod": "Estimada"
+    },
+    {
+        "cups": "ES0102050220380202LR0F",
+        "date": "2020/01/01",
+        "time": "06:00",
+        "consumptionKWh": 0.421,
+        "obtainMethod": "Estimada"
+    },
+    {
+        "cups": "ES0102050220380202LR0F",
+        "date": "2020/01/01",
+        "time": "07:00",
+        "consumptionKWh": 0.431,
+        "obtainMethod": "Estimada"
+    },
+    {
+        "cups": "ES0102050220380202LR0F",
+        "date": "2020/01/01",
+        "time": "08:00",
+        "consumptionKWh": 0.466,
+        "obtainMethod": "Estimada"
+    },
+    {
+        "cups": "ES0102050220380202LR0F",
+        "date": "2020/01/01",
+        "time": "09:00",
+        "consumptionKWh": 0.546,
+        "obtainMethod": "Estimada"
+    },
+    {
+        "cups": "ES0102050220380202LR0F",
+        "date": "2020/01/01",
+        "time": "10:00",
+        "consumptionKWh": 0.709,
+        "obtainMethod": "Estimada"
+    },
+    {
+        "cups": "ES0102050220380202LR0F",
+        "date": "2020/01/01",
+        "time": "11:00",
+        "consumptionKWh": 0.873,
+        "obtainMethod": "Estimada"
+    },
+    {
+        "cups": "ES0102050220380202LR0F",
+        "date": "2020/01/01",
+        "time": "12:00",
+        "consumptionKWh": 0.964,
+        "obtainMethod": "Estimada"
+    },
+    {
+        "cups": "ES0102050220380202LR0F",
+        "date": "2020/01/01",
+        "time": "13:00",
+        "consumptionKWh": 0.999,
+        "obtainMethod": "Estimada"
+    },
+    {
+        "cups": "ES0102050220380202LR0F",
+        "date": "2020/01/01",
+        "time": "14:00",
+        "consumptionKWh": 1.042,
+        "obtainMethod": "Estimada"
+    },
+    {
+        "cups": "ES0102050220380202LR0F",
+        "date": "2020/01/01",
+        "time": "15:00",
+        "consumptionKWh": 1.038,
+        "obtainMethod": "Estimada"
+    },
+    {
+        "cups": "ES0102050220380202LR0F",
+        "date": "2020/01/01",
+        "time": "16:00",
+        "consumptionKWh": 0.935,
+        "obtainMethod": "Estimada"
+    },
+    {
+        "cups": "ES0102050220380202LR0F",
+        "date": "2020/01/01",
+        "time": "17:00",
+        "consumptionKWh": 0.882,
+        "obtainMethod": "Estimada"
+    },
+    {
+        "cups": "ES0102050220380202LR0F",
+        "date": "2020/01/01",
+        "time": "18:00",
+        "consumptionKWh": 0.885,
+        "obtainMethod": "Estimada"
+    },
+    {
+        "cups": "ES0102050220380202LR0F",
+        "date": "2020/01/01",
+        "time": "19:00",
+        "consumptionKWh": 0.989,
+        "obtainMethod": "Estimada"
+    },
+    {
+        "cups": "ES0102050220380202LR0F",
+        "date": "2020/01/01",
+        "time": "20:00",
+        "consumptionKWh": 1.087,
+        "obtainMethod": "Estimada"
+    },
+    {
+        "cups": "ES0102050220380202LR0F",
+        "date": "2020/01/01",
+        "time": "21:00",
+        "consumptionKWh": 1.166,
+        "obtainMethod": "Estimada"
+    },
+    {
+        "cups": "ES0102050220380202LR0F",
+        "date": "2020/01/01",
+        "time": "22:00",
+        "consumptionKWh": 1.185,
+        "obtainMethod": "Estimada"
+    },
+    {
+        "cups": "ES0102050220380202LR0F",
+        "date": "2020/01/01",
+        "time": "23:00",
+        "consumptionKWh": 1.053,
+        "obtainMethod": "Estimada"
+    },
+    {
+        "cups": "ES0102050220380202LR0F",
+        "date": "2020/01/01",
+        "time": "24:00",
+        "consumptionKWh": 0.857,
+        "obtainMethod": "Estimada"
+    },
+    {
+        "cups": "ES0102050220380202LR0F",
+        "date": "2020/01/02",
+        "time": "01:00",
+        "consumptionKWh": 0.652,
+        "obtainMethod": "Estimada"
+    },
+    {
+        "cups": "ES0102050220380202LR0F",
+        "date": "2020/01/02",
+        "time": "02:00",
+        "consumptionKWh": 0.508,
+        "obtainMethod": "Estimada"
+    },
+    {
+        "cups": "ES0102050220380202LR0F",
+        "date": "2020/01/02",
+        "time": "03:00",
+        "consumptionKWh": 0.437,
+        "obtainMethod": "Estimada"
+    },
+    {
+        "cups": "ES0102050220380202LR0F",
+        "date": "2020/01/02",
+        "time": "04:00",
+        "consumptionKWh": 0.406,
+        "obtainMethod": "Estimada"
+    },
+    {
+        "cups": "ES0102050220380202LR0F",
+        "date": "2020/01/02",
+        "time": "05:00",
+        "consumptionKWh": 0.396,
+        "obtainMethod": "Estimada"
+    },
+    {
+        "cups": "ES0102050220380202LR0F",
+        "date": "2020/01/02",
+        "time": "06:00",
+        "consumptionKWh": 0.408,
+        "obtainMethod": "Estimada"
+    },
+    {
+        "cups": "ES0102050220380202LR0F",
+        "date": "2020/01/02",
+        "time": "07:00",
+        "consumptionKWh": 0.482,
+        "obtainMethod": "Estimada"
+    },
+    {
+        "cups": "ES0102050220380202LR0F",
+        "date": "2020/01/02",
+        "time": "08:00",
+        "consumptionKWh": 0.666,
+        "obtainMethod": "Estimada"
+    },
+    {
+        "cups": "ES0102050220380202LR0F",
+        "date": "2020/01/02",
+        "time": "09:00",
+        "consumptionKWh": 0.811,
+        "obtainMethod": "Estimada"
+    },
+    {
+        "cups": "ES0102050220380202LR0F",
+        "date": "2020/01/02",
+        "time": "10:00",
+        "consumptionKWh": 0.896,
+        "obtainMethod": "Estimada"
+    },
+    {
+        "cups": "ES0102050220380202LR0F",
+        "date": "2020/01/02",
+        "time": "11:00",
+        "consumptionKWh": 0.974,
+        "obtainMethod": "Estimada"
+    },
+    {
+        "cups": "ES0102050220380202LR0F",
+        "date": "2020/01/02",
+        "time": "12:00",
+        "consumptionKWh": 0.986,
+        "obtainMethod": "Estimada"
+    },
+    {
+        "cups": "ES0102050220380202LR0F",
+        "date": "2020/01/02",
+        "time": "13:00",
+        "consumptionKWh": 1.0,
+        "obtainMethod": "Estimada"
+    },
+    {
+        "cups": "ES0102050220380202LR0F",
+        "date": "2020/01/02",
+        "time": "14:00",
+        "consumptionKWh": 1.044,
+        "obtainMethod": "Estimada"
+    },
+    {
+        "cups": "ES0102050220380202LR0F",
+        "date": "2020/01/02",
+        "time": "15:00",
+        "consumptionKWh": 1.035,
+        "obtainMethod": "Estimada"
+    },
+    {
+        "cups": "ES0102050220380202LR0F",
+        "date": "2020/01/02",
+        "time": "16:00",
+        "consumptionKWh": 0.988,
+        "obtainMethod": "Estimada"
+    },
+    {
+        "cups": "ES0102050220380202LR0F",
+        "date": "2020/01/02",
+        "time": "17:00",
+        "consumptionKWh": 0.965,
+        "obtainMethod": "Estimada"
+    },
+    {
+        "cups": "ES0102050220380202LR0F",
+        "date": "2020/01/02",
+        "time": "18:00",
+        "consumptionKWh": 0.994,
+        "obtainMethod": "Estimada"
+    },
+    {
+        "cups": "ES0102050220380202LR0F",
+        "date": "2020/01/02",
+        "time": "19:00",
+        "consumptionKWh": 1.095,
+        "obtainMethod": "Estimada"
+    },
+    {
+        "cups": "ES0102050220380202LR0F",
+        "date": "2020/01/02",
+        "time": "20:00",
+        "consumptionKWh": 1.194,
+        "obtainMethod": "Estimada"
+    },
+    {
+        "cups": "ES0102050220380202LR0F",
+        "date": "2020/01/02",
+        "time": "21:00",
+        "consumptionKWh": 1.268,
+        "obtainMethod": "Estimada"
+    },
+    {
+        "cups": "ES0102050220380202LR0F",
+        "date": "2020/01/02",
+        "time": "22:00",
+        "consumptionKWh": 1.277,
+        "obtainMethod": "Estimada"
+    },
+    {
+        "cups": "ES0102050220380202LR0F",
+        "date": "2020/01/02",
+        "time": "23:00",
+        "consumptionKWh": 1.127,
+        "obtainMethod": "Estimada"
+    },
+    {
+        "cups": "ES0102050220380202LR0F",
+        "date": "2020/01/02",
+        "time": "24:00",
+        "consumptionKWh": 0.899,
+        "obtainMethod": "Estimada"
+    }
+]
